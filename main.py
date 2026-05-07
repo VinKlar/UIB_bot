@@ -1,101 +1,23 @@
 import asyncio
 import os
-
+import json
 import httpx
 from dotenv import load_dotenv
+
+from bot.conveyor import send_message
 
 load_dotenv()
 
 TOKEN = os.getenv("MAX_TOKEN")
 API_URL = "https://platform-api.max.ru"
 
+STATE = False
+
+with open("users/users.json", "r", encoding="utf-8") as file:
+    USERS = json.load(file)
 
 if not TOKEN:
     raise ValueError("MAX_TOKEN не найден. Проверь файл .env")
-
-
-async def send_message(chat_id: int, text: str):
-    url = f"{API_URL}/messages"
-
-    headers = {
-        "Authorization": TOKEN,
-        "Content-Type": "application/json"
-    }
-
-    params = {
-        "chat_id": chat_id
-    }
-
-    json_data = {
-        "text": text
-    }
-
-    async with httpx.AsyncClient() as client:
-        response = await client.post(
-            url,
-            headers=headers,
-            params=params,
-            json=json_data
-        )
-
-    print("SEND STATUS:", response.status_code)
-    print("SEND RESPONSE:", response.text)
-
-
-async def send_keyboard(chat_id: int):
-    url = f"{API_URL}/messages"
-
-    headers = {
-        "Authorization": TOKEN,
-        "Content-Type": "application/json"
-    }
-
-    params = {
-        "chat_id": chat_id
-    }
-
-    json_data = {
-        "text": "Выбери действие:",
-        "attachments": [
-            {
-                "type": "inline_keyboard",
-                "payload": {
-                    "buttons": [
-                        [
-                            {
-                                "type": "message",
-                                "text": "Сегодня",
-                                "payload": "Сегодня"
-                            },
-                            {
-                                "type": "message",
-                                "text": "Завтра",
-                                "payload": "Завтра"
-                            }
-                        ],
-                        [
-                            {
-                                "type": "message",
-                                "text": "Неделя",
-                                "payload": "Неделя"
-                            }
-                        ]
-                    ]
-                }
-            }
-        ]
-    }
-
-    async with httpx.AsyncClient() as client:
-        response = await client.post(
-            url,
-            headers=headers,
-            params=params,
-            json=json_data
-        )
-
-    print("KEYBOARD STATUS:", response.status_code)
-    print("KEYBOARD RESPONSE:", response.text)
 
 
 async def get_updates(marker=None):
@@ -120,19 +42,37 @@ async def get_updates(marker=None):
             params=params
         )
 
-    print("GET UPDATES STATUS:", response.status_code)
-
     return response.json()
 
+USER_STATE = {}
 
 async def handle_update(update: dict):
-    update_type = update.get("update_type")
-
-    if update_type != "message_created":
-        return
-
+    print("___________")
+    print(json.dumps(update, indent=2, ensure_ascii=False))
     message = update.get("message", {})
+    update_type = update.get("update_type")
+    user_id = message['sender']['user_id']
     chat_id = message["recipient"]["chat_id"]
+
+    if USERS.get(str(user_id)) is None:
+
+        if USER_STATE.get(user_id):
+
+            await send_message(
+                chat_id,
+                update['callback']['payload'],
+                text='Группа',
+                ch_g=True
+            )
+        else:
+            USER_STATE[user_id] = True
+
+            await send_message(
+                chat_id,
+                'group',
+                text='Нет данных'
+            )
+            return
 
     text = (
         message
@@ -140,24 +80,10 @@ async def handle_update(update: dict):
         .get("text", "")
         .strip()
     )
-
-    print("TEXT RAW:", repr(text))
-    print("UPDATE:", update)
-
     
-    await send_keyboard(chat_id)
-
-    if text == "Сегодня":
-        await send_message(chat_id, "Расписание на сегодня")
-
-    elif text == "Завтра":
-        await send_message(chat_id, "Расписание на завтра")
-
-    elif text == "Неделя":
-        await send_message(chat_id, "Расписание на неделю")
-
-    else:
-        await send_message(chat_id, f"Ты написал: {text}")
+    
+    print(USER_STATE)
+    await send_message(chat_id, text if update_type == 'message_created' else 'push_button', text = update.get("callback", {}).get('payload',''))
 
 
 async def main():

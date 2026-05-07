@@ -49,11 +49,15 @@ USER_STATE = {}
 async def handle_update(update: dict):
     print("___________")
     print(json.dumps(update, indent=2, ensure_ascii=False))
+
     message = update.get("message", {})
     update_type = update.get("update_type")
     user_id = message['sender']['user_id']
     chat_id = message["recipient"]["chat_id"]
 
+    if message.get("body", {}).get("text", "") == '/start':
+        await send_message(chat_id, '/start')
+        return
     if USERS.get(str(user_id)) is None:
 
         if USER_STATE.get(user_id):
@@ -72,7 +76,7 @@ async def handle_update(update: dict):
                 'group',
                 text='Нет данных'
             )
-            return
+        return
 
     text = (
         message
@@ -80,8 +84,6 @@ async def handle_update(update: dict):
         .get("text", "")
         .strip()
     )
-    
-    
     print(USER_STATE)
     await send_message(chat_id, text if update_type == 'message_created' else 'push_button', text = update.get("callback", {}).get('payload',''))
 

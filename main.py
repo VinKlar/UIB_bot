@@ -48,19 +48,28 @@ USER_STATE = {}
 
 async def handle_update(update: dict):
     print("___________")
-    print(json.dumps(update, indent=2, ensure_ascii=False))
+    # print(json.dumps(update, indent=2, ensure_ascii=False))
 
     message = update.get("message", {})
     update_type = update.get("update_type")
     user_id = message['sender']['user_id']
     chat_id = message["recipient"]["chat_id"]
+    text = (
+        message
+        .get("body", {})
+        .get("text", "")
+        .strip()
+    )
+    print(USER_STATE, USERS.get(str(user_id)) is None)
 
     if message.get("body", {}).get("text", "") == '/start':
         await send_message(chat_id, '/start')
         return
     if USERS.get(str(user_id)) is None:
 
-        if USER_STATE.get(user_id):
+        if USER_STATE.get(user_id) == 'NAPR':
+
+            USER_STATE[user_id] = 'GROUP'
 
             await send_message(
                 chat_id,
@@ -68,9 +77,25 @@ async def handle_update(update: dict):
                 text='Группа',
                 ch_g=True
             )
-        else:
-            USER_STATE[user_id] = True
 
+        elif USER_STATE.get(user_id) == 'GROUP':
+            USERS[str(user_id)] = update['callback']['payload']
+            print(USERS)
+            USER_STATE[user_id] = 'DONE'
+            with open("users/users.json", "w", encoding="utf-8") as file:
+                json.dump(
+                    USERS,
+                    file,
+                    ensure_ascii=False,
+                    indent=2
+                )
+
+            await send_message(chat_id, 
+                               'push_button', 
+                               text = "Выберете пункт:")
+
+        else:
+            USER_STATE[user_id] = 'NAPR'
             await send_message(
                 chat_id,
                 'group',
@@ -78,13 +103,7 @@ async def handle_update(update: dict):
             )
         return
 
-    text = (
-        message
-        .get("body", {})
-        .get("text", "")
-        .strip()
-    )
-    print(USER_STATE)
+    
     await send_message(chat_id, text if update_type == 'message_created' else 'push_button', text = update.get("callback", {}).get('payload',''))
 
 

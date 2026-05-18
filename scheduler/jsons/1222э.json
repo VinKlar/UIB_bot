@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "raw": "МАГИСТРАТУРА ИФиПА Агроэкология гр. 1222 - 10 чел. 1 подгр.",
+    "group": "1222",
+    "students": 10,
+    "subgroups": 1,
+    "title": "МАГИСТРАТУРА ИФиПА Агроэкология"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Экологич. безоп. продукции",
+      "period": {
+        "lecture": {
+          "from": "09.02",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "16.02",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАЛАХОВА Н.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Стратегии и методы переработки отходов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "14.02"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАВРИЛЕЦ Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Экологизация агроландшафтов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОБОВА Л.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Инновацион. технолог. в агрохимии",
+      "period": {
+        "lecture": {
+          "from": "09.02",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "16.02",
+          "to": "14.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАРМУЛЕВ А.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Экол. противореч. в с/х",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.02"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОБОВА Л.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Зеленые технологии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЫБАКОВА К.Н."
+        }
+      ]
+    }
+  ]
+}

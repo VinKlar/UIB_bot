@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "raw": "ИФиПА Ландшафт гр.1410 - 24 чел. 2 подгр.",
+    "group": "1410",
+    "students": 24,
+    "subgroups": 2,
+    "title": "ИФиПА Ландшафт"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Менеджмент и маркетинг",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Градостроительное зак-во и экол-ое право",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАЛАХОВА Н.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Компьютерная графика в ландш-ой архитектуре",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВЫШЕГУРОВ С.Х. СУМИНА С.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Газоноведение и газоноводство",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "05.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАБАНОВА М.Е."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Цветоводство открытого грунта",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "05.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАСИЛЬЕВА О.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Оранжерейное и комнатное цветоводство",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "25.04"
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕМНОВА В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Бонсай и ниваки",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЕЛАНОВА А.П."
+        }
+      ]
+    }
+  ]
+}

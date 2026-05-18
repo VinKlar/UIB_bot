@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ Менеджмент+ГМУ гр. 4122 - 24 чел. 2 подгр.",
+    "group": "4122",
+    "students": 24,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ Менеджмент+ГМУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Искусство презентаций (продвинутый уровень)",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              },
+              {
+                "room": "НК-302",
+                "date": "21.02"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ХАРИНА Н.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Экономика сельских территорий",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОВАЛЕВА О.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Проектный менеджмент",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "23.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АСТРА А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Риск-менеджмент",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВГОРОДНЯЯ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Государственно-конфессиональные отношения",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕЧИН Ю.В"
+        }
+      ]
+    }
+  ]
+}

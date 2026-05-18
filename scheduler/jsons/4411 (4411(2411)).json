@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ экономики и управления ТООП гр. 4411 - 13 чел. 1 подгр.",
+    "group": "4411",
+    "students": 13,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ экономики и управления ТООП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Биологическая безопасность систем",
+      "period": {
+        "lecture": {
+          "from": "11.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТЯН Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Бизнес-планирование",
+      "period": {
+        "lecture": {
+          "from": "11.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428",
+                "date": "11.03"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СВИНАРЕВА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Организация произ-ва и обслуж.на предприят.обществ.питания",
+      "period": {
+        "lecture": {
+          "from": "11.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-119"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-119"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАРАБАНОВА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Производ. Учет и отчетность",
+      "period": {
+        "lecture": {
+          "from": "11.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Ресторанный бизнес",
+      "period": {
+        "lecture": {
+          "from": "11.03",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВА Н.А."
+        }
+      ]
+    }
+  ]
+}

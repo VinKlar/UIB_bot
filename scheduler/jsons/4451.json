@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Экономика гр. 4451 - 9 чел. 1 подгр.",
+    "group": "4451",
+    "students": 9,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Экономика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Аудит (теория и практика)",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-414"
+              },
+              {
+                "room": "НК-307",
+                "from": "16.03"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-414"
+              },
+              {
+                "room": "НК-307",
+                "from": "23.03"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414",
+                "date": "14.02"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТРУБЧАНИНОВА И.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Международные стандарты финансовой отчетности",
+      "period": {
+        "lecture": {
+          "from": "30.03",
+          "to": "16.05"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "23.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МУСАЕВА Б.З"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Информационные технологии и компьютерные системы в",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛЯГИНА Е.И"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "ДПВ-Учет и анализ в условиях банкротства организации",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-414"
+              },
+              {
+                "room": "НК-307",
+                "date": "28.03"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТРУБЧАНИНОВА И.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Учет и отчетность по расч. с бюджетом и внеб. фондами",
+      "period": {
+        "lecture": {
+          "from": "30.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "23.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЕЛУЙКО И.Г"
+        }
+      ]
+    }
+  ]
+}

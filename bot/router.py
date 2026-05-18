@@ -98,6 +98,12 @@ class Router:
 
         user_state = context["USER_STATE"].get(event.user_id)
 
+        if event.type == "callback" and event.payload == "cancel":
+            for handler in self.callback_handlers:
+                if handler["payload"] == "cancel":
+                    await handler["func"](event, context)
+                    return
+
         if user_state:
             for handler in self.state_handlers:
                 if handler["state"] == user_state:

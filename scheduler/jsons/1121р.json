@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "raw": "Магистратура ИФиПА Инновационные технологии гр. 1121 - 15 чел. 1 подгр.",
+    "group": "1121",
+    "students": 15,
+    "subgroups": 1,
+    "title": "Магистратура ИФиПА Инновационные технологии"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Методика профес. обучения",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-303"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-303"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Интел. соб-ть и основы коммерциализации",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "06.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВАЛЬНЮК Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Технологии возделывания высокомаржинальных культур",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "06.03"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "ДПВ-основы агробиотехнологий",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАКАРОВА К.С."
+        }
+      ]
+    }
+  ]
+}

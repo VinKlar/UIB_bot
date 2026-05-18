@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза гр. 6407 - 18 чел. 2 подгр.",
+    "group": "6407",
+    "students": 18,
+    "subgroups": 2,
+    "title": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "ВСЭ",
+      "period": {
+        "lecture": {
+          "from": "16.02",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "23.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОНОВАЛОВ Е.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Судебная ВСЭ",
+      "period": {
+        "lecture": {
+          "from": "16.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "23.02",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЕРМАКОВА Л.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Ветеринарная санитария",
+      "period": {
+        "lecture": {
+          "from": "16.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "23.02",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7А",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7Б",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАЛОВСКАЯ О.Б."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Закон.осн. безоп.прод.пит.",
+      "period": {
+        "lecture": {
+          "from": "30.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕНИНА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Орг-я гос. вет.надзора",
+      "period": {
+        "lecture": {
+          "from": "16.02",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "23.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7 | Л",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛОГИНОВ С.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Санит.треб.и контр.кач-ва прод-ии",
+      "period": {
+        "lecture": {
+          "from": "06.04",
+          "to": "16.05"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФОМИН В.М."
+        }
+      ]
+    }
+  ]
+}

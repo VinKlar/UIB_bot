@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ СПО (Э и У) Экономика и БУ гр. 4261,4367 - 53 чел. 4 подгр.",
+    "group": "4261,4367",
+    "students": 53,
+    "subgroups": 4,
+    "title": "ФАКУЛЬТЕТ СПО (Э и У) Экономика и БУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы анализа бух.отчетности",
+      "period": {
+        "lecture": {
+          "from": "15.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              },
+              {
+                "room": "З-216",
+                "date": "19.01"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              },
+              {
+                "room": "НК-214",
+                "date": "26.01"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Физическая культура",
+      "period": {
+        "practice": {
+          "from": "15.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_5": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "61 | 67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "61 | 67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОЛОМОШНОВА О.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Бухг. техн. проведения и формир. инвент-ии",
+      "period": {
+        "lecture": {
+          "from": "15.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3",
+                "date": "20.01"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТАСОВА Н.В"
+        }
+      ]
+    }
+  ]
+}

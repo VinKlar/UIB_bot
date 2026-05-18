@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ ГМУ гр. 4456 - 15 чел. 1 подгр.",
+    "group": "4456",
+    "students": 15,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ ГМУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Управление конфликтами в организации",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "23.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_2": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-524",
+                "from": "27.04"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЕХТИНА Г.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Спичрайтинг в государственном и муниципальном управлении",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_5": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕЧИН Ю.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Искусство презентаций",
+      "period": {
+        "lecture": {
+          "from": "23.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "30.03",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_7": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. АФАНАСЬЕВА Т.А пр. РОМАШЕВА В.Е"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Формирование управленческой команды",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-424",
+                "date": "04.04"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Государственная поддержка малого и среднего бизнеса",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОСТАНИН М.К"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Взаимодействие органов власти с гражданским обществом",
+      "period": {
+        "lecture": {
+          "from": "16.03",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "30.03",
+          "to": "30.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    }
+  ]
+}

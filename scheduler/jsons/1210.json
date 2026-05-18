@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "raw": "ИФиПА Ландшафт гр. 1210 - 24 чел. 2 подгр.",
+    "group": "1210",
+    "students": 24,
+    "subgroups": 2,
+    "title": "ИФиПА Ландшафт"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Экономическая теория",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ПР. ЩЕРБАКОВА Н.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Философия",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРНЫХ С.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Минер. питание растений",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МИТРАКОВА А.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Медология проектирования ландшафтных объектов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАЛЬЧИКОВА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Декоративная дендрология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЫМИНА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Новые технологии в ландшафтном строительстве",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВЫШЕГУРОВ С.Х. КУНГУРЦЕВ А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Теория ландш. архитектуры",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВЫШЕГУРОВ С.Х."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Градостроительство с основами архитектуры",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕГТЯРЕВА Л.Н."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "raw": "Магистратура ИФиПА Агробиотехнология в ЗР гр. 1121 - 7 чел. 1 подгр.",
+    "group": "1121",
+    "students": 7,
+    "subgroups": 1,
+    "title": "Магистратура ИФиПА Агробиотехнология в ЗР"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Методика профес. обучения",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Интел. соб-ть и основы коммерциализации",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "06.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВАЛЬНЮК Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Методы иссл-ий в защите раст-ий",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "07.03"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДУБОВСКИЙ И.М."
+        }
+      ]
+    }
+  ]
+}

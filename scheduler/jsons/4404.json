@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент ЛиУЦП гр. 4404 - 14 чел. 1 подгр.",
+    "group": "4404",
+    "students": 14,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент ЛиУЦП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Мониторинг и диагностика ФХД организаций АПК",
+      "period": {
+        "lecture": {
+          "from": "18.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "23.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОРОВСКИХ Е.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Интегрированное планирование цепей поставок",
+      "period": {
+        "lecture": {
+          "from": "18.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "23.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРНОВА С.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Логистика распределения",
+      "period": {
+        "lecture": {
+          "from": "18.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "23.03",
+          "to": "08.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-307",
+                "date": "04.04"
+              },
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЕЛЯЕВА Е.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "ДПВ-Цифровые технологии в АПК",
+      "period": {
+        "lecture": {
+          "from": "18.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "23.03",
+          "to": "08.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛЯГИНА Е.И"
+        }
+      ]
+    }
+  ]
+}

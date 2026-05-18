@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза гр. 6208 - 15 чел. 1 подгр.",
+    "group": "6208",
+    "students": 15,
+    "subgroups": 1,
+    "title": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы маркетинга",
+      "period": {
+        "lecture": {
+          "from": "16.03",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "23.03",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЫНГУЕВА В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Произв.вет.контроль и основы технолог.в перер.",
+      "period": {
+        "lecture": {
+          "from": "23.03",
+          "to": "16.05"
+        },
+        "practice": {
+          "from": "30.03",
+          "to": "30.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-320"
+              },
+              {
+                "room": "НК-322",
+                "date": "3.04"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОНЧАРЕНКО А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Биохимия молока и мяса",
+      "period": {
+        "lecture": {
+          "from": "20.04",
+          "to": "23.05"
+        },
+        "practice": {
+          "from": "27.04",
+          "to": "30.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОТКЕВИЧ О.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Медотология научных исследований",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАРАСЕНКО Е.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Основы хирургии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-201"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-201"
+              },
+              {
+                "room": "НК-223",
+                "date": "22.01"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-201"
+              },
+              {
+                "room": "НК-223",
+                "date": "15.01"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8 | Л",
+            "classroom": [
+              {
+                "room": "НК-201"
+              },
+              {
+                "room": "НК-219"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-201"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ГЛУЩЕНКО В.В. ПР.ПИЛИПЕНКО Н.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Вет.пропедевтика",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-108"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-108"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-246",
+                "date": "20.01"
+              },
+              {
+                "room": "НК-108"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-108"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-108"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-108"
+              },
+              {
+                "room": "НК-246",
+                "date": "27.01"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СТРИЖКОВА М.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Вет.фармакология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-244"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НОЗДРИН А.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Санитарная микробиология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-204"
+              },
+              {
+                "room": "НК-206",
+                "date": "16.01"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЮДИНА Н.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Междунар.сотр-во в обл.продукт.безоп.",
+      "period": {
+        "lecture": {
+          "from": "23.03",
+          "to": "23.05"
+        },
+        "practice": {
+          "from": "30.03",
+          "to": "30.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_6": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕНИНА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "ДПВ-Станд. и вет.сан.контр.",
+      "period": {
+        "lecture": {
+          "from": "20.04",
+          "to": "23.05"
+        },
+        "practice": {
+          "from": "27.04",
+          "to": "30.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-246"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НОЗДРИН А.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_11",
+      "name": "Физ-ра и спорт (электив.дисц.)",
+      "period": {
+        "practice": {
+          "from": "12.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОЛОМОШНОВА О.Н. ШМАКОВА Т.П. КОЛЕСОВ А.А. ПОДКОВЫРОВА Т.А. ГОЛУБЕВА Н.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_12",
+      "name": "Основы вирусологии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-204"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРДАКОВА В.О."
+        }
+      ]
+    }
+  ]
+}

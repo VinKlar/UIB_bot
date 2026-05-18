@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ экономики и управления ТППСХП гр. 4413, 4414 - 22 чел. 2 подгр.",
+    "group": "4413,4414",
+    "students": 22,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ экономики и управления ТППСХП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Бюджетирование",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВГОРОДНЯЯ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Общая теория управления",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СВИНАРЕВА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "ДПВ-Промышленное молочное скотоводство",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-222",
+                "date": "27.02"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИВАНОВА О.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Стандартизация и подтверж-ние соот-вия продукции",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-216"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "З-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "З-216"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-216"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л | 13 | 14",
+            "classroom": [
+              {
+                "room": "З-216",
+                "date": "24.02"
+              },
+              {
+                "room": "З-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13 | 14",
+            "classroom": [
+              {
+                "room": "З-216"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛЕНИВКИНА И.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Товароведческая экспертиза",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-317",
+                "date": "26.02"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л. РЯВКИН О.В. ПР. ЧЕРЕНКОВ В.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Безопасность с/х сырья и продов.",
+      "period": {
+        "lecture": {
+          "from": "24.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "14",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306",
+                "date": "27.02"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТЯН Е.А."
+        }
+      ]
+    }
+  ]
+}

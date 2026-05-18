@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "raw": "Магистратура ИФиПА Информационные технологии гр. 1221 - 12 чел. 1 подгр.",
+    "group": "1221",
+    "students": 12,
+    "subgroups": 1,
+    "title": "Магистратура ИФиПА Информационные технологии"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "формирование агроценозов кормовых культур",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-323"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-323"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕТРУК В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ТЕХНОЛОГИИ ВОЗДЕЛЫВАНИЯ ВЫСОКОМАРЖ. КУЛЬТУР",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "ДПВ-Програмир. урожаев",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "14.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Инновационные тех-гии в агрономии",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "26.01",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАКАРОВА К.С."
+        }
+      ]
+    }
+  ]
+}

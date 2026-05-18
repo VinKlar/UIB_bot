@@ -1,0 +1,701 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии Биотехнология гр. 6125 - 9 чел. 1 подгр.",
+    "group": "6125",
+    "students": 9,
+    "subgroups": 1,
+    "title": "Институт Ветеринарной медицины и Биотехнологии Биотехнология"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Микробиология в биотехнологии и медицине(НГУ)",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Молекулярная биология(НГУ)",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Биотехнология получения БАВ из растительного сырья",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "НК-502"
+              },
+              {
+                "room": "НК-511",
+                "date": "16.01"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-502"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОНОВАЛОВА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Процессы и аппараты биотехнологических производств",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-203"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Н-203"
+              },
+              {
+                "room": "Н-141",
+                "date": "16.01"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-203"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-203"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Н-203"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Н-203"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.МЕЗЕНОВ А.А. ПР. ТУРОВ А.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Молекулярно-генетические исследования в биотехнологии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              },
+              {
+                "room": "НК-511",
+                "date": "22.01"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              },
+              {
+                "room": "НК-511",
+                "date": "29.01"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕБЕЖКО О.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Биотехнология ферментативных препаратов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              },
+              {
+                "room": "НК-524",
+                "date": "24.01"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛМЫКОВА А.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Биоинформатика (НГУ)",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": ".2025 Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НГУ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Технология получения и хранения продукции биотех-их произ-в",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛМЫКОВА А.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Современные проблемы отраслевой биотехнологии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "НК-511"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕБЕЖКО О.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Деловой ин.яз.",
+      "period": {
+        "practice": {
+          "from": "09.03",
+          "to": "05.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "25",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НОСЕНКО Н.В."
+        }
+      ]
+    }
+  ]
+}

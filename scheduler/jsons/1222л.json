@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "raw": "МАГИСТРАТУРА ИФиПА Лесное дело гр. 1222 - 17 чел. 1 подгр.",
+    "group": "1222",
+    "students": 17,
+    "subgroups": 1,
+    "title": "МАГИСТРАТУРА ИФиПА Лесное дело"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "ДПВ-Региональное лесоводство",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "18.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "18.03"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАРКИНА О.В. НОВОСЕЛОВ С.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ДПВ-Научные основы селекции и семеноводства",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "18.03"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЯКУБЕНКО О.Е."
+        }
+      ]
+    }
+  ]
+}

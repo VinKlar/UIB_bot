@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "raw": "ИФиПА Агрономия гр.1205 - 17 чел. 1 подгр.",
+    "group": "1205",
+    "students": 17,
+    "subgroups": 1,
+    "title": "ИФиПА Агрономия"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Микробиология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-321"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-321"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТЕНЬКОВА Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Агрохимия",
+      "period": {
+        "lecture": {
+          "from": "09.03",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "16.03",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАРМУЛЕВ А.Н. МИТРАКОВА А.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "С/Х Экология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОБОВА Л.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Философия",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРНЫХ С.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Мелиорация",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-416"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-416"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТУЛИГЛОВИЧ С.М. ШАХРИСТОВА А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Основы животноводства",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-201"
+              },
+              {
+                "room": "З-222",
+                "date": "12.02"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КЛЕМЕШОВА И.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Основы биотехнологии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              },
+              {
+                "room": "Д-236",
+                "date": "20.03"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОНДРАТЬЕВА И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Экономическая теория",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л. ЩЕРБАКОВА Н.А. ПР. КЛИМЕНКО Е.О."
+        }
+      ]
+    }
+  ]
+}

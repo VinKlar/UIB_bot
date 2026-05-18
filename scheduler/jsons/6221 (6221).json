@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии ВСЭ гр. 6221 - 18 чел. 2 подгр.",
+    "group": "6221",
+    "students": 18,
+    "subgroups": 2,
+    "title": "Институт Ветеринарной медицины и Биотехнологии ВСЭ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Гос.вет.надзор",
+      "period": {
+        "lecture": {
+          "from": "09.02",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "16.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛОГИНОВ С.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Психол.педагог.в проф.деятельности",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-432"
+              },
+              {
+                "room": "НК-431",
+                "date": "22.01"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТОЛСТОВА И.Э"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Техн.регул.,станд-я,управление качеством",
+      "period": {
+        "lecture": {
+          "from": "30.03",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФОМИН В.М."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Современные проблемы ВСЭ и прод.безоп-ти",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕНИНА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Межд.отношения в области ВСЭ и прод.безоп.",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕНИНА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Проф-ный иностр.язык (англ.яз.)",
+      "period": {
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_5": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_5": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОТКИХ Е.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Проф-ный иностр.язык (нем.яз.)",
+      "period": {
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_2": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              },
+              {
+                "room": "НК-336",
+                "date": "31.01"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НОСЕНКО Н.В."
+        }
+      ]
+    }
+  ]
+}

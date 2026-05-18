@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ экономики и управления ТППСХП гр. 4213 - 20 чел. 2 подгр.",
+    "group": "4213",
+    "students": 20,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ экономики и управления ТППСХП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Механиз-я и автом-я технол. Процессов раст-во",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_6": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_6": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-147"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛУЦИК В.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Сооружения и обор-е для хранения с/х продукции",
+      "period": {
+        "lecture": {
+          "from": "23.03",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "30.03",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТУРОВ А.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Физ-ра и спорт:электив.дисципл.",
+      "period": {
+        "practice": {
+          "from": "09.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОДКОВЫРОВА Т.А ШМАКОВА Т.П. ГОЛУБЕВ А.В. КОЛЕСОВ А.А. ФОТИНА З.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Основы технического регулирования",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОРОДОК О.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Ветеринарно-санитарная экспертиза",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "02.05"
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-118"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАЛОВСКАЯ О.Б."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Управление технол-кими процессами в жив-ве",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИВАНОВА О.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Процессы и аппараты перерабатывающих производств",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "07.03"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "21.03"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-104"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-104"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-104"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-104"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МЕЗЕНОВ А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Гигиена и санитария пищевых пр.",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "13Б",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "13А",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "13А",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "13Б",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТЯН Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Оборудование перерабатывающих производств",
+      "period": {
+        "lecture": {
+          "from": "30.03",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "06.04",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "13",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПШЕНОВ Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Гигиена производства с/х сырья",
+      "period": {
+        "lecture": {
+          "from": "02.02",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "09.02",
+          "to": "25.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "13Б",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13Б",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "13Б",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "13А",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "13А",
+            "classroom": [
+              {
+                "room": "З-305"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "13А",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-306"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТЯН Е.А."
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,20 @@
 import asyncio
 import json
-import os
 
 import httpx
-from dotenv import load_dotenv
+from config import TOKEN, API_URL
 
 from bot.handlers import router
+import scheduler.schedule as scheduler
+import scheduler.scheduler_parser as scheduler_parser
+from pathlib import Path
+from scheduler.build_fgs_runtime import build_fgs_from_jsons
 
-load_dotenv()
+sched = scheduler.Scheduler()
+folder = Path("scheduler/jsons")
+FGS = {}
 
-TOKEN = os.getenv("MAX_TOKEN")
-API_URL = "https://platform-api.max.ru"
+
 USERS_PATH = "users/users.json"
 
 USER_STATE = {}
@@ -61,22 +65,69 @@ async def get_updates(marker=None):
 
 
 async def handle_update(update: dict):
-    print("___________")
-    print(json.dumps(update, indent=2, ensure_ascii=False))
+    
+    # print(json.dumps(update, indent=2, ensure_ascii=False))
 
     context = {
         "USERS": USERS,
         "USER_STATE": USER_STATE,
-        "save_users": save_users
+        "save_users": save_users,
+        "sched": sched,
+        "FGS": FGS
     }
 
     await router.dispatch(update, context)
-
+import traceback
 
 async def main():
     marker = None
 
     print("Бот запущен")
+
+    # for file_path in folder.glob("*.json"):
+    #     try:
+
+    #         with open(file_path, encoding="utf-8") as file:
+
+    #             parsed = scheduler_parser.parse_json(
+    #                 file.read()
+    #             )
+
+    #             sched.parse_group(parsed)
+
+    #         # print(f"Загружен: {file_path.name}")
+    #     except Exception as e:
+    #         print(f"Не загружен: {file_path.name}")
+            
+
+    for file_path in folder.glob("*.json"):
+        try:
+
+            with open(file_path, encoding="utf-8") as file:
+
+                parsed = scheduler_parser.parse_json(
+                    file.read()
+                )
+
+                sched.parse_group(parsed)
+
+            # print(f"Загружен: {file_path.name}")
+
+        except Exception as e:
+
+            print(f"Не загружен: {file_path.name}")
+            print(e)
+
+            file_path.unlink()
+
+            print(f"Удалён: {file_path.name}")
+    global FGS
+    FGS = build_fgs_from_jsons(
+        excel_path="scheduler/МАХ-Профили_актуальные-25-26 у.г..xlsx",
+        json_dir="scheduler/jsons"
+    )
+    print(FGS)
+    print("FGS собран")
 
     while True:
         try:

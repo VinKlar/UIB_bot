@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "raw": "Магистратура ИФиПА Лесное дело гр. 1122 - 11 чел. 1 подгр.",
+    "group": "1122",
+    "students": 11,
+    "subgroups": 1,
+    "title": "Магистратура ИФиПА Лесное дело"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Системный анализ и моделирование в лесном хоз-ве",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЯКУБЕНКО О.Е. ТРЕТЬЯКОВА Р.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Интенсификация ведения лесного хозяйства",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАРКИНА О.В. ГУРЬЯНОВ Р.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Актуальные проблемы развития лесного комплекса",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОЛГУШИН Г.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Правовые и соц. аспекты устойчивого лесоупр.",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАРЗЯЕВ В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Комплексное рациональное использование лесных ресурсов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАРКИНА О.В."
+        }
+      ]
+    }
+  ]
+}

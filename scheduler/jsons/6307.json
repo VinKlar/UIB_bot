@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза гр. 6307 - 12 чел. 1 подгр.",
+    "group": "6307",
+    "students": 12,
+    "subgroups": 1,
+    "title": "Институт Ветеринарной медицины и Биотехнологии Вет экспертиза"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Информационные технологии в ветеринарии",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "08.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-231"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-231"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-231"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-231"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.НАУМКИН И.В. ПР.КОНОВАЛОВА С.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Пат.анатомия животных",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-229"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-229"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-229"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-229"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-229"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "УХЛОВА А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Паразитарные болезни",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "02.05"
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "А-103"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "А-103"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-104"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-104"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЕФРЕМОВ Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Инфекционные болезни",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-103"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "А-103"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "А-103"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЛЬФ В.Т."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ВСЭ",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-320"
+              },
+              {
+                "room": "НК-322",
+                "date": "03.04"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-322"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-320"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОНОВАЛОВ Е.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Стандартизация и сертификация",
+      "period": {
+        "lecture": {
+          "from": "02.03",
+          "to": "18.04"
+        },
+        "practice": {
+          "from": "09.03",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧУБКО Л.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Биол.безоп.-ть прод.живот.происх.",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "25.04"
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              },
+              {
+                "room": ",",
+                "until": "29.03"
+              },
+              {
+                "room": "НК-320",
+                "from": "30.03"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧУБКО Л.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "ДПВ-ВСТ при содержан.и бол. рыб и гидробионтов",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-316"
+              },
+              {
+                "room": "НК-322",
+                "date": "20.01"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "НК-325"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАЛОВСКАЯ О.Б."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физ-ра и спорт (электив.дисц.)",
+      "period": {
+        "practice": {
+          "from": "12.01",
+          "to": "28.03"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОЛЕСОВ А.А. ПОДКОВЫРОВА Т.А. ГОЛУБЕВА Н.А. ГОЛУБЕВ А.В. ШМАКОВА Т.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "БЖД",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЗЮ Е.Л."
+        }
+      ]
+    }
+  ]
+}

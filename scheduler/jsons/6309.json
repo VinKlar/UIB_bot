@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "raw": "Институт Ветеринарной медицины и Биотехнологии Зоотехния гр. 6309 - 14 чел. 1 подгр.",
+    "group": "6309",
+    "students": 14,
+    "subgroups": 1,
+    "title": "Институт Ветеринарной медицины и Биотехнологии Зоотехния"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Зоопсихология",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КНЯЗЕВ С.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Механизация и автоматизация животноводства",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "Н-132"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-132"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "9 | Л",
+            "classroom": [
+              {
+                "room": "Н-132"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАТРИН П.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Кормопроизводство",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕТРУК В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Скотоводство",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "11.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.РЕПЬЮК Д.В. ПР.ИВАНОВА О.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Свиноводство",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "02.05"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "9 | Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БАРСУКОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Физ-ра и спорт:электив.дисципл.",
+      "period": {
+        "practice": {
+          "from": "23.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОЛЕСОВ А.А. ПОДКОВЫРОВА Т.А. ГОЛУБЕВА Н.А. ГОЛУБЕВ А.В. ШМАКОВА Т.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Технический аудит в птицеводстве",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "9 | Л",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-201"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КЛЕМЕШОВА И.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Кинология",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "9",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КНЯЗЕВ С.П."
+        }
+      ]
+    }
+  ]
+}

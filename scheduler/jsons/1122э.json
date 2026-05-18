@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "raw": "Магистратура ИФиПА Агроэкология гр. 1122 - 10 чел. 1 подгр.",
+    "group": "1122",
+    "students": 10,
+    "subgroups": 1,
+    "title": "Магистратура ИФиПА Агроэкология"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Методика профес. обучения",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "07.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Интел. соб-ть и основы коммерциализации",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "14.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "06.03"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВАЛЬНЮК Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "ДПВ-Санитарная экология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "11.03"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАВРИЛЕЦ Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "ДПВ-ГИС-технологии в сельском хоз-ве",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.02"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "28.02"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РИКСЕН В.С."
+        }
+      ]
+    }
+  ]
+}

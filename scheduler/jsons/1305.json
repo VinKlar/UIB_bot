@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "raw": "ИФиПА Защита растений гр. 1305 - 12 чел. 1 подгр.",
+    "group": "1305",
+    "students": 12,
+    "subgroups": 1,
+    "title": "ИФиПА Защита растений"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы селекции и семеноводства",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "28.03"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛЕЙБОЛТ Е.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ДПВ- Прогноз вредителей и болезней",
+      "period": {
+        "lecture": {
+          "from": "02.03",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "09.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГЕРБЕР О.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Фитопатология и энтомология",
+      "period": {
+        "lecture": {
+          "from": "12.01",
+          "to": "21.02"
+        },
+        "practice": {
+          "from": "12.01",
+          "to": "21.02"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПИЛИПОВА Ю.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Фитопатология и энтомология",
+      "period": {
+        "lecture": {
+          "from": "23.02",
+          "to": "06.04"
+        },
+        "practice": {
+          "from": "23.02",
+          "to": "06.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦВЕТКОВА В.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Правоведение",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "21.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЧЕНКО И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "С/х Фитопатология",
+      "period": {
+        "lecture": {
+          "from": "19.01",
+          "to": "05.04"
+        },
+        "practice": {
+          "from": "19.01",
+          "to": "09.04"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТОРОПОВА Е.Ю. СЕЛЮК М.П."
+        }
+      ]
+    }
+  ]
+}

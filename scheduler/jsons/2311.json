@@ -1,0 +1,543 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ экономики и управления ТПООП гр. 4311 - 16 чел. 1 подгр.",
+    "group": "4311",
+    "students": 16,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ экономики и управления ТПООП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Пищевая биотехнология",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СОРОКОЛЕТОВ О.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Бухгалтерский учет",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "14.03"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "09.05"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "",
+            "classroom": [
+              {
+                "room": ". НК-527",
+                "date": "29.01"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЕЛУЙКО И.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Технология продукции общ.питания",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "04.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "04.04"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              },
+              {
+                "room": "З-319",
+                "date": "05.02"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.КОШЕЛЕВА Е.А. ПР КОРШУНОВА В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Компьютеризация производства",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "25.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "02.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "11 | Л",
+            "classroom": [
+              {
+                "room": "З-218"
+              },
+              {
+                "room": "З-218"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-218"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАРТ В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Научные основа производства продуктов питания",
+      "period": {
+        "lecture": {
+          "from": "26.01",
+          "to": "11.04"
+        },
+        "practice": {
+          "from": "02.02",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-124"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-124"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "11 | Л",
+            "classroom": [
+              {
+                "room": "З-124"
+              },
+              {
+                "room": "З-317"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11 | Л",
+            "classroom": [
+              {
+                "room": "З-124"
+              },
+              {
+                "room": "З-317"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРШУНОВА В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Товароведение",
+      "period": {
+        "lecture": {
+          "from": "23.02",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛИСИЧЕНОК О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Детское и функциональное питание",
+      "period": {
+        "lecture": {
+          "from": "23.02",
+          "to": "09.05"
+        },
+        "practice": {
+          "from": "02.03",
+          "to": "16.05"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "ЛОП-1"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.КОШЕЛЕВА Е.А. ПР.ПОДЕРЕЧА А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Физ-ра и спорт:электив.дисципл.",
+      "period": {
+        "practice": {
+          "from": "26.01",
+          "to": "18.04"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СП.З"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "СП.З"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОЛЕСОВ А.А. ШМАКОВА Т.П. ПОДКОВЫРОВА Т.А. ПОЛОМОШНОВА О.Н."
+        }
+      ]
+    }
+  ]
+}

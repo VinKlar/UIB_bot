@@ -110,6 +110,7 @@ async def main():
         excel_path="scheduler/МАХ-Профили_актуальные-25-26 у.г..xlsx",
         json_dir="scheduler/jsons"
     )
+    print(FGS)
     
     print("FGS собран")
 

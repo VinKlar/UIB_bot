@@ -84,22 +84,6 @@ async def main():
 
     print("Бот запущен")
 
-    # for file_path in folder.glob("*.json"):
-    #     try:
-
-    #         with open(file_path, encoding="utf-8") as file:
-
-    #             parsed = scheduler_parser.parse_json(
-    #                 file.read()
-    #             )
-
-    #             sched.parse_group(parsed)
-
-    #         # print(f"Загружен: {file_path.name}")
-    #     except Exception as e:
-    #         print(f"Не загружен: {file_path.name}")
-            
-
     for file_path in folder.glob("*.json"):
         try:
 
@@ -126,7 +110,7 @@ async def main():
         excel_path="scheduler/МАХ-Профили_актуальные-25-26 у.г..xlsx",
         json_dir="scheduler/jsons"
     )
-    print(FGS)
+    
     print("FGS собран")
 
     while True:

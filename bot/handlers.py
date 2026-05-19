@@ -54,6 +54,17 @@ FACULTY_DIRECTIONS = {
     "faculty_law": "directions_law"
 }
 
+def is_faculty_payload(payload: str):
+    return payload.startswith("faculty_")
+
+
+def is_direction_payload(payload: str):
+    return "." in payload and not payload.startswith("faculty_")
+
+
+def is_group_payload(payload: str):
+    return payload and payload[0].isdigit() and "." not in payload
+
 
 @router.state("WAIT_FACULTY")
 async def wait_faculty_handler(event, context):
@@ -87,7 +98,30 @@ async def wait_direction_handler(event, context):
         await send_message(
             event.chat_id,
             "faculty",
-            text="Нажмите кнопку с направлением"
+            text="Выберите институт / факультет"
+        )
+        return
+
+    payload = event.payload
+
+    if is_faculty_payload(payload):
+        context["USER_STATE"][event.user_id] = "WAIT_DIRECTION"
+
+        scen_name = FACULTY_DIRECTIONS.get(payload)
+
+        if scen_name:
+            await send_message(event.chat_id, scen_name)
+        else:
+            await send_message(event.chat_id, "faculty")
+
+        return
+
+    if not is_direction_payload(payload):
+        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
+
+        await send_message(
+            event.chat_id,
+            "faculty"
         )
         return
 
@@ -95,7 +129,7 @@ async def wait_direction_handler(event, context):
 
     await send_message(
         event.chat_id,
-        event.payload,
+        payload,
         text="Группа",
         ch_g=True
     )
@@ -111,10 +145,46 @@ async def wait_group_handler(event, context):
         )
         return
 
+    payload = event.payload
+
+    # Если нажали факультет
+    if is_faculty_payload(payload):
+        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
+
+        await send_message(
+            event.chat_id,
+            "faculty"
+        )
+        return
+
+    # Если нажали направление
+    if is_direction_payload(payload):
+        context["USER_STATE"][event.user_id] = "WAIT_GROUP"
+
+        await send_message(
+            event.chat_id,
+            payload,
+            text="Группа",
+            ch_g=True
+        )
+        return
+
+    # Если это не группа
+    if not is_group_payload(payload):
+        await send_message(
+            event.chat_id,
+            "faculty",
+            text="Выберите институт / факультет заново"
+        )
+
+        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
+        return
+
+    # Нормальное сохранение группы
     user_key = str(event.user_id)
 
     context["USERS"][user_key] = {
-        "group": event.payload
+        "group": payload
     }
 
     context["save_users"](context["USERS"])
@@ -124,7 +194,7 @@ async def wait_group_handler(event, context):
     await send_message(
         event.chat_id,
         "push_button",
-        text=f"Группа сохранена: {event.payload}"
+        text=f"Группа сохранена: {payload}"
     )
 
 

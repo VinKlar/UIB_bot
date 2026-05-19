@@ -25,6 +25,26 @@ async def start_handler(event, context):
         event.chat_id,
         "/start"
     )
+    
+@router.command("re_group")
+async def re_group_handler(event, context):
+
+    user_key = str(event.user_id)
+
+    # удаляем старую группу
+    if user_key in context["USERS"]:
+        del context["USERS"][user_key]
+
+    # сохраняем users.json
+    context["save_users"](context["USERS"])
+
+    # запускаем выбор заново
+    context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
+
+    await send_message(
+        event.chat_id,
+        "faculty"
+    )
 
 @router.message("/start")
 async def start_handler(event, context):

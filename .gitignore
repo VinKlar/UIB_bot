@@ -2,3 +2,7 @@
 /.venv
 users/users.json
 cache/file_tokens.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

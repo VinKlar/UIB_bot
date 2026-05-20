@@ -1,2 +1,4 @@
 /.env
 /.venv
+users/users.json
+cache/file_tokens.json

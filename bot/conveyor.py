@@ -4,6 +4,7 @@ import httpx
 import asyncio
 
 from config import TOKEN, API_URL
+from bot.file_cache import get_cached_file, set_cached_file
 
 with open("bot/scen.json", "r", encoding="utf-8") as file:
     SCEN = json.load(file)
@@ -14,6 +15,8 @@ import os
 import httpx
 
 from config import TOKEN, API_URL
+
+
 
 
 async def upload_file(file_path: str):
@@ -62,15 +65,30 @@ async def upload_file(file_path: str):
 
     return upload_response.json()
 
+async def get_or_upload_file(file_path: str):
+    cached = get_cached_file(file_path)
+
+    if cached:
+        print("FILE CACHE HIT:", file_path)
+        return cached
+
+    print("FILE CACHE MISS:", file_path)
+
+    upload_result = await upload_file(file_path)
+
+    await asyncio.sleep(3)
+
+    set_cached_file(file_path, upload_result)
+
+    return upload_result
+
 
 async def send_file(
     chat_id: int,
     file_path: str,
     text: str = "Файл"
 ):
-    upload_result = await upload_file(file_path)
-
-    await asyncio.sleep(3)
+    upload_result = await get_or_upload_file(file_path)
 
     url = f"{API_URL}/messages"
 
@@ -92,11 +110,9 @@ async def send_file(
             }
         ]
     }
-    tmp_scen = copy.deepcopy(SCEN['push_button'])
 
-    # добавляем клавиатуру
-    
-    keyboard = await create_keyboard(tmp_scen['buttons'])
+    tmp_scen = copy.deepcopy(SCEN["push_button"])
+    keyboard = await create_keyboard(tmp_scen["buttons"])
 
     json_data["attachments"].extend(
         keyboard["attachments"]
@@ -112,6 +128,8 @@ async def send_file(
 
     print("SEND FILE:", response.status_code)
     print("SEND FILE:", response.text)
+
+    return response.json()
 
 async def send_message(chat_id: int, scen, **data):
     url = f"{API_URL}/messages"

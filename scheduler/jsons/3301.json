@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Техн.сист.в агробизнесе гр. 3301 10 человек(а) 1 подгр.",
+    "group": "3301",
+    "students": 10,
+    "subgroups": 1,
+    "title": "Инженерный Институт Техн.сист.в агробизнесе"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Топливо и смазочные материалы",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КРУМ В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ДПВ-Надежность технических систем",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОПОВ М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "С.Х.машины",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-146"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ ГАЛЫНСКИЙ А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Детали машин и основы конструиров.",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИШУТИНА Л.Н. ГЛАДЧЕНКО В.М"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Тракторы и автомобили",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-151"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-151"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-151"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-151"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-151"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ПР. МАТЯШ С.П. Л.ПР.РЕЧКИН С.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Гидравлика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ДИДЕНКО А.А. ПР.ХРИСТЕНКО А.Г."
+        }
+      ]
+    }
+  ]
+}

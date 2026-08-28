@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "raw": "Юридический факультет Юриспруденция гр.7121- 11 чел. 1 подгр.",
+    "group": "7121",
+    "students": 11,
+    "subgroups": 1,
+    "title": "Юридический факультет Юриспруденция"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Актуальные проблемы теории права",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРЧЕЕВ В.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Методология юридической науки",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРЧЕЕВ В.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Современные информ-нные технологии и их роль в",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШИНА Л.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Гос.политика и управление в сфере АПК",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЫБАКОВ Ю.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Деловой иностранный язык в проф.коммуникации",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕМЕНТОВСКАЯ Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Правовая охрана и использование земель в РФ",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЧЕНКО И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Противодействие коррупциив сфере АПК",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МКРТЫЧЯН Б.А."
+        }
+      ]
+    }
+  ]
+}

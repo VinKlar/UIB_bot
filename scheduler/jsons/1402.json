@@ -1,29 +1,104 @@
 {
   "meta": {
-    "raw": "ИФиПА Агрономия гр. 1402 - 11 чел. 1 подгр.",
+    "raw": "ИФиПА Агрономия гр.1402 - 19 человек 1 подгр.",
     "group": "1402",
-    "students": 11,
+    "students": 19,
     "subgroups": 1,
     "title": "ИФиПА Агрономия"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "ДПВ-Основы агробизнеса",
+      "name": "ДПВ-Станд-ия и сери-ия прод. раст.",
       "period": {
         "lecture": {
-          "from": "09.02",
-          "to": "08.05"
+          "from": "02.11",
+          "to": "26.12"
         },
         "practice": {
-          "from": "09.02",
-          "to": "08.05"
+          "from": "09.11",
+          "to": "26.12"
         }
       },
       "nchet": {
-        "monday": {
+        "tuesday": {
           "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          },
+          "par_3": {
             "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-317"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л.ПОТАПОВА С.С. ПР.КОЛБИНА О.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Экономика и организации предприятия АПК",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "12.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "2",
             "classroom": [
               {
                 "room": "НК-433"
@@ -37,11 +112,36 @@
                 "room": "НК-433"
               }
             ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418",
+                "date": "30.09"
+              }
+            ]
           }
         }
       },
       "chet": {
-        "monday": {
+        "wednesday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
           "par_2": {
             "type": "2",
             "classroom": [
@@ -49,31 +149,145 @@
                 "room": "НК-433"
               }
             ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
           }
         }
       },
       "teachers": [
         {
-          "name": "ЦЫНГУЕВА В.В."
+          "name": "НАКОНЕЧНАЯ О.А."
         }
       ]
     },
     {
-      "id": "subj_2",
-      "name": "Интегрированная защита растений",
+      "id": "subj_3",
+      "name": "Кормопроиз-во и луговодство",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "12.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "12.10",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "monday": {
+        "thursday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
           "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕТРУК В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Средства защиты растений",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "12.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402",
+                "date": "29.09"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
@@ -82,209 +296,20 @@
             ]
           }
         },
-        "thursday": {
-          "par_1": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "thursday": {
-          "par_1": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ТОРОПОВА Е.Ю. СЕЛЮК М.П."
-        }
-      ]
-    },
-    {
-      "id": "subj_3",
-      "name": "ДПВ-Плодоводство",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "18.04"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "25.04"
-        }
-      },
-      "nchet": {
         "friday": {
-          "par_3": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-228А"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_3": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-228А"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МАКАРОВА К.С."
-        }
-      ]
-    },
-    {
-      "id": "subj_4",
-      "name": "Менеджмент и маркетинг",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "25.04"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "25.04"
-        }
-      },
-      "nchet": {
-        "thursday": {
           "par_2": {
             "type": "2",
             "classroom": [
               {
-                "room": "Д-228А"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "monday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_2": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-228А"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ОЖОГОВА О.В."
-        }
-      ]
-    },
-    {
-      "id": "subj_5",
-      "name": "ХиППР",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "11.04"
-        },
-        "practice": {
-          "from": "09.02",
-          "to": "11.04"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_1": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-317"
+                "room": "ЗР-201"
               }
             ]
           },
-          "par_2": {
+          "par_3": {
             "type": "2",
             "classroom": [
               {
-                "room": "Д-317"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_1": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-317"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-317"
+                "room": "ЗР-201"
               }
             ]
           }
@@ -292,111 +317,7 @@
       },
       "teachers": [
         {
-          "name": "ПОТАПОВА С.С. КОЛБИНА О.Н."
-        }
-      ]
-    },
-    {
-      "id": "subj_6",
-      "name": "Адаптивное растениеводство",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "25.04"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "25.04"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_3": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "thursday": {
-          "par_3": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ГАЛЕЕВ Р.Р."
-        }
-      ]
-    },
-    {
-      "id": "subj_7",
-      "name": "Цифровые технологии в АПК",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "25.04"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "25.04"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_4": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "НК-423"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "2",
-            "classroom": [
-              {
-                "room": "НК-423"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "КАЛЯГИНА Е.И."
+          "name": "ШПАТОВА Т.В."
         }
       ]
     }

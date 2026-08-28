@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "raw": "Юридический факультет Юриспруденция гр.7441- 12 чел. 1 подгр",
+    "group": "7441",
+    "students": 12,
+    "subgroups": 1,
+    "title": "Юридический факультет Юриспруденция"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Аграрное право",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЧЕНКО И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Земельное право",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЧЕНКО И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Огневая подготовка",
+      "period": {
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "ВСТ-106"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "ВСТ-106"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538",
+                "date": "18.09"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЕКЧЯН Д.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Международное частное право",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕМИДОВ Г.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Право социального обеспечения",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "15.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЧЕНКО И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Тактико-специальная подготовка",
+      "period": {
+        "practice": {
+          "from": "21.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524",
+                "date": "17.09"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538",
+                "date": "19.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "ВСТ-107"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "ВСТ-107"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МИЛЛЕР А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Гражданское право",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОРЯЧЕВА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Предпринимательское право",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_5": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КРАВЧЕНКО О.Б."
+        }
+      ]
+    }
+  ]
+}

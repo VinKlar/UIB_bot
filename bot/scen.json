@@ -72,8 +72,12 @@
                     "payload": "cancel"
                 }
             ]
-          ]
+      ]
     },
+  "selection": {
+    "text": "{text}",
+    "buttons": []
+  },
   "faculty": {
     "text": "Выберите институт / факультет",
     "buttons": [

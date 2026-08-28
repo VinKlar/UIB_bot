@@ -1,0 +1,620 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Автомобили гр. 3211-24 человека,гр. 3212- 25 человек(а) 4 подгр.",
+    "group": "3211,3212",
+    "students": 49,
+    "subgroups": 4,
+    "title": "Инженерный Институт Автомобили"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Психологические основы самоменеджмента",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФЕДОТОВ Б.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Стан-ция, взаимозам-ть и технические измерения",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-107"
+              },
+              {
+                "room": "Н-212"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109",
+                "date": "29.09"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-108"
+              },
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-108"
+              },
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЗЖЕННИКОВА Т.В КОНОРЕЕВ Р.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Конструкция автотранспортных средств",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-151"
+              },
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-151"
+              },
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОМЛЕВ В.А. МАТЯШ С.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Теоретическая механика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "29.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАРСИС Е.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Сопротивление материалов",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТИХОНКИН И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Информационные технологии",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-227"
+              },
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-227"
+              },
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ВУЛЬФЕРТ В.Я. ПР ЗЕЙБ В.А. ПР. МИХИНКЕВИЧ В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Иностранный язык",
+      "period": {
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_5": {
+            "type": "11Б",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "12Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "11А | 11Б",
+            "classroom": [
+              {
+                "room": "вст-104"
+              },
+              {
+                "room": "н-148а"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "12А",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12А",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "12Б",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12Б",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "11А | 11Б",
+            "classroom": [
+              {
+                "room": "вст-104"
+              },
+              {
+                "room": "н-148а"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "12А",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12А",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "11Б",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "УЛЬЯНОВА О.В. 11А,12А ЧЕРНИКОВА В.А. 11Б СЕРОВА Н.А. 12Б"
+        }
+      ]
+    }
+  ]
+}

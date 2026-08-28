@@ -1,68 +1,84 @@
 {
   "meta": {
-    "raw": "Магистратура ИФиПА Агробиотехнология в ЗР гр. 1221 - 7 чел. 1 подгр.",
-    "group": "1221",
-    "students": 7,
+    "raw": "ИФиПА Агробиотехнология в ЗР гр.1221з 6 человек 1 подгр.",
+    "group": "1221з",
+    "students": 6,
     "subgroups": 1,
-    "title": "Магистратура ИФиПА Агробиотехнология в ЗР"
+    "title": "ИФиПА Агробиотехнология в ЗР"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "ДПВ-Физиология и пат-ия насекомых",
+      "name": "Оператор наземных средств управления БПЛА",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "14.03"
+          "from": "13.10",
+          "to": "05.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "28.03"
+          "from": "19.10",
+          "to": "12.12"
         }
       },
       "nchet": {
-        "saturday": {
-          "par_1": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_3": {
+        "friday": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
               }
             ]
           }
         }
       },
       "chet": {
-        "saturday": {
-          "par_1": {
-            "type": "21",
+        "friday": {
+          "par_4": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "Д-406"
               }
             ]
           },
-          "par_2": {
+          "par_5": {
             "type": "21",
             "classroom": [
               {
-                "room": "ЗЗ-202"
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
               }
             ]
           }
@@ -70,105 +86,26 @@
       },
       "teachers": [
         {
-          "name": "ШАТАЛОВА Е.И."
+          "name": "ВАКАНСИЯ"
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Генетически модифиц. организмы в защите растений",
+      "name": "Технологии интегрированной защиты растений",
       "period": {
         "lecture": {
-          "from": "09.02",
-          "to": "07.03"
+          "from": "13.10",
+          "to": "05.12"
         },
         "practice": {
-          "from": "16.02",
-          "to": "14.03"
+          "from": "19.10",
+          "to": "12.12"
         }
       },
       "nchet": {
         "monday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
           "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "monday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ГРИЗАНОВА Е.В."
-        }
-      ]
-    },
-    {
-      "id": "subj_3",
-      "name": "Биологич. основы управления здоровьем растений",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "14.03"
-        },
-        "practice": {
-          "from": "02.02",
-          "to": "14.03"
-        }
-      },
-      "nchet": {
-        "wednesday": {
-          "par_5": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_4": {
             "type": "Л",
             "classroom": [
               {
@@ -176,139 +113,6 @@
               }
             ]
           },
-          "par_5": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "БЕЛЯЕВ А.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_4",
-      "name": "Инновационные тех-гии в агрономии",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "14.03"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "21.03"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МАКАРОВА К.С."
-        }
-      ]
-    },
-    {
-      "id": "subj_5",
-      "name": "Технол. произ-ва энтомофагов и БАВ",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "14.03"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "21.03"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_4": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ЗЕНКОВА А.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_6",
-      "name": "Фитосанитарный экологический мониторинг",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "21.02"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "28.02"
-        }
-      },
-      "nchet": {
-        "wednesday": {
           "par_3": {
             "type": "21",
             "classroom": [
@@ -327,16 +131,16 @@
           }
         },
         "thursday": {
-          "par_3": {
-            "type": "Л",
+          "par_1": {
+            "type": "21",
             "classroom": [
               {
                 "room": "ЗР-202"
               }
             ]
           },
-          "par_4": {
-            "type": "Л",
+          "par_2": {
+            "type": "21",
             "classroom": [
               {
                 "room": "ЗР-202"
@@ -346,7 +150,90 @@
         }
       },
       "chet": {
-        "wednesday": {
+        "monday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л. ТОРОПОВА Е.И. ПР. СЕЛЮК М.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Биологическая регуляция вредных видов",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
           "par_3": {
             "type": "21",
             "classroom": [
@@ -359,7 +246,125 @@
       },
       "teachers": [
         {
-          "name": "ТОРОПОВА Е.Ю. СЕЛЮК М.П."
+          "name": "ШПАТОВА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Генетически модифицированные организмы в защите растений",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГРИЗАНОВА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Современные синтетич. и биорац. пестициды",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЗАКОВА О.А."
         }
       ]
     }

@@ -1,0 +1,532 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Автомобили гр. 3123-15 человек 1 подгр.",
+    "group": "3123-1",
+    "students": 5,
+    "subgroups": 1,
+    "title": "Инженерный Институт Автомобили"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Деловая комуникация в научной и проф.деят.",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "10.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-301"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СИДОРИНА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Математическое моделирование",
+      "period": {
+        "lecture": {
+          "from": "19.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-306"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-306"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-306"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВ Л.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Психология менеджмента",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "10.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-328"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-328"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СИДОРИНА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Основы научных исследований",
+      "period": {
+        "lecture": {
+          "from": "19.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-104"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-104"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-104"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "н-104"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.МЕЗЕНОВ А.А. ПР.ПАТРИН П.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Информационные технологии в науке",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "17.10"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРНОСОВ А.Ф."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Теоретические основы эксплуатации",
+      "period": {
+        "lecture": {
+          "from": "05.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРНОСОВ А.Ф."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Современные направления развития конструкций",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИВАННИКОВ А.Б."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Тех.обор.для ХПСХП гр. 3305 12 человек 1 подгр.",
+    "group": "3305",
+    "students": 12,
+    "subgroups": 1,
+    "title": "Инженерный Институт Тех.обор.для ХПСХП"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Топливо и смазочные материалы",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КРУМ В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Гидровлич.и пневматич. системы пищ.произв-в",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДИДЕНКО А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Детали машин и основы конструиров.",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИШУТИНА Л.Н. ГЛАДЧЕНКО В.М"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Процессы и аппараты",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТУРОВ А.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Технология хранения и перераб с.х.продукции",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-313"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СОРОКОЛЕТОВ О.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Основы расчетов и КМ аппаратов пищ.произ-в",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-141"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПШЕНОВ Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Гидравлика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-102"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ДИДЕНКО А.А. ПР.ХРИСТЕНКО А.Г."
+        }
+      ]
+    }
+  ]
+}

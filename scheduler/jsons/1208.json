@@ -1,50 +1,63 @@
 {
   "meta": {
-    "raw": "ИФиПА Лесное дело гр. 1208 - 17 чел. 1 подгр.",
+    "raw": "ИФиПА Лесное дело гр. 1208 - 14 человек(а) 1 подгр",
     "group": "1208",
-    "students": 17,
+    "students": 14,
     "subgroups": 1,
     "title": "ИФиПА Лесное дело"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Экономическая теория",
+      "name": "Психология",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "11.04"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "19.01",
-          "to": "18.04"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
-      "chet": {
-        "monday": {
-          "par_2": {
+      "nchet": {
+        "tuesday": {
+          "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "А-3"
+                "room": "Н-231"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-231",
+                "date": "01.09"
               }
             ]
           }
         },
-        "saturday": {
-          "par_5": {
+        "wednesday": {
+          "par_2": {
             "type": "8",
             "classroom": [
               {
-                "room": "НК-433"
+                "room": "Н-325"
               }
             ]
-          },
-          "par_6": {
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
             "type": "8",
             "classroom": [
               {
-                "room": "НК-433"
+                "room": "Н-325"
               }
             ]
           }
@@ -52,211 +65,46 @@
       },
       "teachers": [
         {
-          "name": "Л. ЩЕРБАКОВА Н.А. ПР. КЛИМЕНКО Е.О."
+          "name": "КОРНИЕНКО Н.А."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Философия",
+      "name": "Цифровые технологии в лесном деле",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "11.04"
+          "from": "01.09",
+          "to": "28.11"
         },
         "practice": {
-          "from": "19.01",
-          "to": "18.04"
+          "from": "01.09",
+          "to": "28.11"
         }
       },
       "nchet": {
-        "monday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "А-3"
-              }
-            ]
-          },
-          "par_4": {
+        "friday": {
+          "par_5": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-228А"
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
-          "par_4": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-228А"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ЧЕРНЫХ С.И."
-        }
-      ]
-    },
-    {
-      "id": "subj_3",
-      "name": "ДПВ-Экология",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "07.03"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "21.03"
-        }
-      },
-      "nchet": {
-        "thursday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-415"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-415"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-415"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "thursday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-415"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-415"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "КОРОБОВА Л.Н."
-        }
-      ]
-    },
-    {
-      "id": "subj_4",
-      "name": "Лесоведение",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "18.04"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "02.05"
-        }
-      },
-      "nchet": {
-        "saturday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "saturday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ЧЕЧУЛИНА Г.Н."
-        }
-      ]
-    },
-    {
-      "id": "subj_5",
-      "name": "Стат.анализ в лесном деле",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "18.04"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "02.05"
-        }
-      },
-      "nchet": {
-        "wednesday": {
-          "par_4": {
+        "friday": {
+          "par_6": {
             "type": "8",
             "classroom": [
               {
@@ -264,30 +112,167 @@
               }
             ]
           }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГУРЬЯНОВ Р.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Дендрология",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
         },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЯКУБЕНКО А.Е."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Лесная генетика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "14.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЯКУБЕНКО А.Е."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Физиология растений",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
         "thursday": {
           "par_1": {
             "type": "Л",
             "classroom": [
               {
                 "room": "Д-231",
-                "date": "22.01"
-              },
+                "date": "03.09"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "8",
+            "classroom": [
               {
-                "room": "Д-231 Д-224",
-                "date": "29.01"
+                "room": "Д-225"
               }
             ]
           }
         }
       },
       "chet": {
-        "wednesday": {
+        "friday": {
           "par_4": {
-            "type": "8",
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-225"
               }
             ]
           },
@@ -295,17 +280,58 @@
             "type": "8",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-225"
               }
             ]
           }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЫМИНА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ Недревесная прод. леса",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
         },
-        "thursday": {
-          "par_1": {
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
               }
             ]
           }
@@ -318,128 +344,58 @@
       ]
     },
     {
-      "id": "subj_6",
-      "name": "Минер. питание растений",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "28.03"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "04.04"
-        }
-      },
-      "nchet": {
-        "wednesday": {
-          "par_2": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-118"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-118"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_1": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-118"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-118"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МИТРАКОВА А.Г."
-        }
-      ]
-    },
-    {
       "id": "subj_7",
-      "name": "ДПВ-Охотоведение",
+      "name": "Методы дистанц. мониторинга лесов",
       "period": {
         "lecture": {
-          "from": "09.03",
-          "to": "02.05"
+          "from": "01.09",
+          "to": "28.11"
         },
         "practice": {
-          "from": "16.03",
-          "to": "16.05"
+          "from": "01.09",
+          "to": "28.11"
         }
       },
       "nchet": {
-        "friday": {
-          "par_1": {
+        "tuesday": {
+          "par_5": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-126"
+                "room": "Д-231",
+                "date": "01.09"
               }
             ]
-          },
-          "par_2": {
+          }
+        },
+        "wednesday": {
+          "par_1": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-126"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-126"
+                "room": "Д-231"
               }
             ]
           }
         }
       },
       "chet": {
-        "friday": {
-          "par_1": {
+        "tuesday": {
+          "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-126"
+                "room": "Д-231"
               }
             ]
-          },
-          "par_2": {
+          }
+        },
+        "wednesday": {
+          "par_1": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-126"
+                "room": "Д-231"
               }
             ]
           }
@@ -447,50 +403,46 @@
       },
       "teachers": [
         {
-          "name": "СЕВАСТЕЕВ С.В."
+          "name": "ТРЕТЬЯКОВА Р.А."
         }
       ]
     },
     {
       "id": "subj_8",
-      "name": "Лесные культуры",
+      "name": "Ин.язык",
       "period": {
-        "lecture": {
-          "from": "09.03",
-          "to": "09.05"
-        },
         "practice": {
-          "from": "16.03",
-          "to": "16.05"
+          "from": "07.09",
+          "to": "12.12"
         }
       },
       "nchet": {
-        "saturday": {
+        "tuesday": {
           "par_1": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-233"
               }
             ]
           }
         }
       },
       "chet": {
-        "saturday": {
-          "par_1": {
+        "tuesday": {
+          "par_2": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-231"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-231"
+                "room": "Д-233"
               }
             ]
           }
@@ -498,7 +450,7 @@
       },
       "teachers": [
         {
-          "name": "ЧЕЧУЛИНА Г.Н."
+          "name": "МАШКОВА С.С. ЧЕРНИКОВА П.Г."
         }
       ]
     }

@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Агроинженерия гр. 3221 - 32 человек(а) 2 подгр.",
+    "group": "3221",
+    "students": 32,
+    "subgroups": 2,
+    "title": "Инженерный Институт Агроинженерия"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Автоматизация и роботизация ТП в АПК",
+      "period": {
+        "lecture": {
+          "from": "11.11",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.БЛЕСКИН С.С. ПР.ГОЛИКОВ А.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Точное земледелие",
+      "period": {
+        "lecture": {
+          "from": "11.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "11.11",
+          "to": "29.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              },
+              {
+                "room": "Н-121"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              },
+              {
+                "room": "Н-121"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОЛГУШИН А.А. ГАЛЫНСКИЙ А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Цифровые технологии в перераб.с-х прод.",
+      "period": {
+        "lecture": {
+          "from": "11.11",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.БЛЕСКИН С.С. ПР.ГОЛИКОВ А.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Организация фирменного ТС с-х техники",
+      "period": {
+        "lecture": {
+          "from": "11.11",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "11.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21А",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21Б",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОНИЗОВСКИЙ А.Ю."
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ FGS = {}
 USERS_PATH = "users/users.json"
 
 USER_STATE = {}
+USER_SELECTION = {}
 
 if not TOKEN:
     raise ValueError("MAX_TOKEN не найден. Проверь файл .env")
@@ -71,6 +72,7 @@ async def handle_update(update: dict):
     context = {
         "USERS": USERS,
         "USER_STATE": USER_STATE,
+        "USER_SELECTION": USER_SELECTION,
         "save_users": save_users,
         "sched": sched,
         "FGS": FGS
@@ -101,13 +103,9 @@ async def main():
 
             print(f"Не загружен: {file_path.name}")
             print(e)
-
-            file_path.unlink()
-
-            print(f"Удалён: {file_path.name}")
     global FGS
     FGS = build_fgs_from_jsons(
-        excel_path="scheduler/МАХ-Профили_актуальные-25-26 у.г..xlsx",
+        excel_path="scheduler/МАХ-Профили_актуальные-26-27 у.г..xlsx",
         json_dir="scheduler/jsons"
     )
     print(FGS)

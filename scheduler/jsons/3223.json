@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Автомобили гр. 3223 - 3 человек(а) 1 подгр.",
+    "group": "3223",
+    "students": 3,
+    "subgroups": 1,
+    "title": "Инженерный Институт Автомобили"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Нормативно-правовое обеспечение деят.транпорта",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БУЛАЕВ Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Менеджмент инноваций и риск-менеджмент",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-215"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВ В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Обеспечение эксплуатац.безопасности трансп.",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФЕДЮНИН П.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Методы обеспечения безопасности производства на",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОНУРОВСКИЙ В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Технол.проектирование",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-114"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЧЕЛЬНИКОВ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Организация и управление технической эксплуатацией",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "23",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОМНЫШЕВ Д.А."
+        }
+      ]
+    }
+  ]
+}

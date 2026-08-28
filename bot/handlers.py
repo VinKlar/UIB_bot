@@ -4,21 +4,145 @@ from datetime import date
 from datetime import datetime, timedelta
 from datetime import date
 from bot.calendar_keyboard import create_calendar_buttons
+from bot.group_catalog import GROUP_CATALOG
 
 
 router = Router()
+
+SEARCH_PROMPT = (
+    "Введите код и наименование направления, например:\n"
+    "09.03.03 Прикладная информатика\n\n"
+    "Если знаете номер группы, введите его сразу, например: 8101"
+)
+
+
+def make_button_rows(items, text_factory, payload_factory, per_row=2):
+    buttons = [
+        {
+            "type": "callback",
+            "text": text_factory(item)[:100],
+            "payload": payload_factory(item),
+        }
+        for item in items
+    ]
+    return [buttons[index:index + per_row] for index in range(0, len(buttons), per_row)]
+
+
+async def begin_group_selection(event, context, text=SEARCH_PROMPT):
+    context["USER_SELECTION"].pop(event.user_id, None)
+    context["USER_STATE"][event.user_id] = "WAIT_SEARCH"
+    await send_message(event.chat_id, "selection", text=text)
+
+
+async def save_group(event, context, group_info):
+    user_key = str(event.user_id)
+    context["USERS"][user_key] = {"group": group_info["group"]}
+    context["save_users"](context["USERS"])
+    context["USER_STATE"].pop(event.user_id, None)
+    context["USER_SELECTION"].pop(event.user_id, None)
+
+    await send_message(
+        event.chat_id,
+        "push_button",
+        text=(
+            f"Группа сохранена: {group_info['group']}\n"
+            f"Направление: {group_info['direction_code']} "
+            f"{group_info['direction_name']}\n"
+            f"Профиль: {group_info['profile']}\n"
+            f"Форма обучения: {group_info['study_form']}"
+        ),
+    )
+
+
+async def show_directions(event, context, directions):
+    context["USER_STATE"][event.user_id] = "WAIT_DIRECTION"
+    context["USER_SELECTION"][event.user_id] = {
+        "direction_ids": [item["id"] for item in directions]
+    }
+    buttons = make_button_rows(
+        directions,
+        lambda item: f"{item['code']} {item['name']}",
+        lambda item: f"direction:{item['id']}",
+        per_row=1,
+    )
+    await send_message(
+        event.chat_id,
+        "selection",
+        text="Найдено несколько направлений. Выберите нужное:",
+        buttons=buttons,
+    )
+
+
+async def show_profiles(event, context, direction):
+    context["USER_STATE"][event.user_id] = "WAIT_PROFILE"
+    context["USER_SELECTION"][event.user_id] = {
+        "direction_id": direction["id"]
+    }
+    buttons = make_button_rows(
+        direction["profiles"],
+        lambda item: f"{item['name']} — {item['study_form']}",
+        lambda item: f"profile:{direction['id']}:{item['id']}",
+        per_row=1,
+    )
+    await send_message(
+        event.chat_id,
+        "selection",
+        text=f"{direction['code']} {direction['name']}\n\nВыберите профиль и форму обучения:",
+        buttons=buttons,
+    )
+
+
+async def show_groups(event, context, direction, profile):
+    context["USER_STATE"][event.user_id] = "WAIT_GROUP"
+    context["USER_SELECTION"][event.user_id] = {
+        "direction_id": direction["id"],
+        "profile_id": profile["id"],
+    }
+    buttons = make_button_rows(
+        profile["groups"],
+        lambda group: group,
+        lambda group: f"group:{group}",
+    )
+    await send_message(
+        event.chat_id,
+        "selection",
+        text=(
+            f"Профиль: {profile['name']}\n"
+            f"Форма обучения: {profile['study_form']}\n\n"
+            "Выберите группу:"
+        ),
+        buttons=buttons,
+    )
+
+
+def get_selected_schedule_group(event, context):
+    user = context["USERS"].get(str(event.user_id), {})
+    selected_group = user.get("group")
+    return selected_group, context["FGS"].get(selected_group)
+
+
+async def send_schedule_unavailable(event, selected_group):
+    await send_message(
+        event.chat_id,
+        "push_button",
+        text=f"Расписание для группы {selected_group or 'не выбрана'} пока не загружено.",
+    )
+
+
+def format_lesson(item):
+    lesson_type = "Лекция" if item.is_lecture() else item.type
+    teacher = item.subject.teacher or "не указан"
+    return (
+        f"  {item.subject.name} ({item.cabinet}) — {lesson_type}\n"
+        f"  Преподаватель: {teacher}"
+    )
 
 @router.bot_started()
 async def start_handler(event, context):
     user_key = str(event.user_id)
 
     if context["USERS"].get(user_key) is None:
-        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
-
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
+        await begin_group_selection(event, context)
         return
 
     await send_message(
@@ -38,25 +162,14 @@ async def re_group_handler(event, context):
     # сохраняем users.json
     context["save_users"](context["USERS"])
 
-    # запускаем выбор заново
-    context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
-
-    await send_message(
-        event.chat_id,
-        "faculty"
-    )
+    await begin_group_selection(event, context)
 
 @router.message("/start")
 async def start_handler(event, context):
     user_key = str(event.user_id)
 
     if context["USERS"].get(user_key) is None:
-        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
-
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
+        await begin_group_selection(event, context)
         return
 
     await send_message(
@@ -64,158 +177,86 @@ async def start_handler(event, context):
         "/start"
     )
 
-FACULTY_DIRECTIONS = {
-    "faculty_agro": "directions_agro",
-    "faculty_engineering": "directions_engineering",
-    "faculty_vet": "directions_vet",
-    "faculty_ict": "directions_ict",
-    "faculty_food": "directions_food",
-    "faculty_econom": "directions_econom",
-    "faculty_law": "directions_law"
-}
-
-def is_faculty_payload(payload: str):
-    return payload.startswith("faculty_")
-
-
-def is_direction_payload(payload: str):
-    return "." in payload and not payload.startswith("faculty_")
-
-
-def is_group_payload(payload: str):
-    return payload and payload[0].isdigit() and "." not in payload
-
-
-@router.state("WAIT_FACULTY")
-async def wait_faculty_handler(event, context):
-    if event.type != "callback":
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
+@router.state("WAIT_SEARCH")
+async def wait_search_handler(event, context):
+    if event.type != "message":
+        await send_message(event.chat_id, "selection", text=SEARCH_PROMPT)
         return
 
-    scen_name = FACULTY_DIRECTIONS.get(event.payload)
-
-    if not scen_name:
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
+    group_info = GROUP_CATALOG.find_group(event.text)
+    if group_info:
+        await save_group(event, context, group_info)
         return
 
-    context["USER_STATE"][event.user_id] = "WAIT_DIRECTION"
+    directions = GROUP_CATALOG.search_directions(event.text)
+    if len(directions) == 1:
+        await show_profiles(event, context, directions[0])
+        return
+    if len(directions) > 1:
+        await show_directions(event, context, directions)
+        return
 
     await send_message(
         event.chat_id,
-        scen_name
+        "selection",
+        text=f"Ничего не найдено.\n\n{SEARCH_PROMPT}",
     )
 
 
 @router.state("WAIT_DIRECTION")
 async def wait_direction_handler(event, context):
-    if event.type != "callback":
-        await send_message(
-            event.chat_id,
-            "faculty",
-            text="Выберите институт / факультет"
-        )
+    if event.type != "callback" or not (event.payload or "").startswith("direction:"):
+        await begin_group_selection(event, context, "Введите направление заново.\n\n" + SEARCH_PROMPT)
         return
 
-    payload = event.payload
-
-    if is_faculty_payload(payload):
-        context["USER_STATE"][event.user_id] = "WAIT_DIRECTION"
-
-        scen_name = FACULTY_DIRECTIONS.get(payload)
-
-        if scen_name:
-            await send_message(event.chat_id, scen_name)
-        else:
-            await send_message(event.chat_id, "faculty")
-
+    direction_id = event.payload.split(":", 1)[1]
+    allowed_ids = context["USER_SELECTION"].get(event.user_id, {}).get("direction_ids", [])
+    direction = GROUP_CATALOG.get_direction(direction_id)
+    if not direction or direction_id not in allowed_ids:
+        await begin_group_selection(event, context, "Направление устарело.\n\n" + SEARCH_PROMPT)
         return
 
-    if not is_direction_payload(payload):
-        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
+    await show_profiles(event, context, direction)
 
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
+
+@router.state("WAIT_PROFILE")
+async def wait_profile_handler(event, context):
+    payload = event.payload or ""
+    if event.type != "callback" or not payload.startswith("profile:"):
+        await send_message(event.chat_id, "selection", text="Выберите профиль кнопкой выше.")
         return
 
-    context["USER_STATE"][event.user_id] = "WAIT_GROUP"
+    _, direction_id, profile_id = payload.split(":", 2)
+    selected_direction = context["USER_SELECTION"].get(event.user_id, {}).get("direction_id")
+    direction = GROUP_CATALOG.get_direction(direction_id)
+    profile = GROUP_CATALOG.get_profile(direction_id, profile_id)
+    if not direction or not profile or direction_id != selected_direction:
+        await begin_group_selection(event, context, "Выбор устарел.\n\n" + SEARCH_PROMPT)
+        return
 
-    await send_message(
-        event.chat_id,
-        payload,
-        text="Группа",
-        ch_g=True
-    )
+    await show_groups(event, context, direction, profile)
 
 
 @router.state("WAIT_GROUP")
 async def wait_group_handler(event, context):
-    if event.type != "callback":
-        await send_message(
-            event.chat_id,
-            "group",
-            text="Нажмите кнопку с группой"
-        )
-        return
+    if event.type == "message":
+        group_info = GROUP_CATALOG.find_group(event.text)
+    elif event.type == "callback" and (event.payload or "").startswith("group:"):
+        group_info = GROUP_CATALOG.find_group(event.payload.split(":", 1)[1])
+    else:
+        group_info = None
 
-    payload = event.payload
-
-    # Если нажали факультет
-    if is_faculty_payload(payload):
-        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
-
-        await send_message(
-            event.chat_id,
-            "faculty"
-        )
-        return
-
-    # Если нажали направление
-    if is_direction_payload(payload):
-        context["USER_STATE"][event.user_id] = "WAIT_GROUP"
-
-        await send_message(
-            event.chat_id,
-            payload,
-            text="Группа",
-            ch_g=True
-        )
-        return
-
-    # Если это не группа
-    if not is_group_payload(payload):
-        await send_message(
-            event.chat_id,
-            "faculty",
-            text="Выберите институт / факультет заново"
-        )
-
-        context["USER_STATE"][event.user_id] = "WAIT_FACULTY"
-        return
-
-    # Нормальное сохранение группы
-    user_key = str(event.user_id)
-
-    context["USERS"][user_key] = {
-        "group": payload
-    }
-
-    context["save_users"](context["USERS"])
-
-    context["USER_STATE"].pop(event.user_id, None)
-
-    await send_message(
-        event.chat_id,
-        "push_button",
-        text=f"Группа сохранена: {payload}"
+    selection = context["USER_SELECTION"].get(event.user_id, {})
+    profile = GROUP_CATALOG.get_profile(
+        selection.get("direction_id", ""),
+        selection.get("profile_id", ""),
     )
+
+    if not group_info or not profile or group_info["group"] not in profile["groups"]:
+        await send_message(event.chat_id, "selection", text="Выберите группу кнопкой выше.")
+        return
+
+    await save_group(event, context, group_info)
 
 
 @router.message("Сегодня")
@@ -241,17 +282,19 @@ async def today_callback_handler(event, context):
     lesson_index = 0
 
     lines = []
-    for item in context['sched'].get_day(datetime.now().date(), context['FGS'][context['USERS'][str(event.user_id)]['group']]):
+    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    if not schedule_group:
+        await send_schedule_unavailable(event, selected_group)
+        return
+
+    for item in context['sched'].get_day(datetime.now().date(), schedule_group):
         print(item)
         if lesson_index != item.index:
             lesson_index = item.index
 
             lines.append(f"{lesson_index} пара")
 
-        lines.append(
-            f"  {item.subject.name} ({item.cabinet}) - "
-            f"{'Лекция' if item.is_lecture() else item.type}"
-        )
+        lines.append(format_lesson(item))
 
     text = "\n".join(lines)
     if not text:
@@ -267,11 +310,14 @@ async def today_callback_handler(event, context):
 
 @router.callback("all")
 async def all_callback_handler(event, context):
-    
-    
+    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    if not schedule_group:
+        await send_schedule_unavailable(event, selected_group)
+        return
+
     await send_file(
         event.chat_id,
-        f"scheduler/xls/{context['FGS'][context['USERS'][str(event.user_id)]['group']]}.xls",
+        f"scheduler/xls/{schedule_group}.xls",
         text="Общее расписание"
     )
 
@@ -282,18 +328,19 @@ async def tomorrow_callback_handler(event, context):
     lesson_index = 0
 
     lines = []
+    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    if not schedule_group:
+        await send_schedule_unavailable(event, selected_group)
+        return
 
-    for item in context['sched'].get_day(datetime.now().date() + timedelta(days=1), context['FGS'][context['USERS'][str(event.user_id)]['group']]):
+    for item in context['sched'].get_day(datetime.now().date() + timedelta(days=1), schedule_group):
 
         if lesson_index != item.index:
             lesson_index = item.index
 
             lines.append(f"{lesson_index} пара")
 
-        lines.append(
-            f"  {item.subject.name} ({item.cabinet}) - "
-            f"{'Лекция' if item.is_lecture() else item.type}"
-        )
+        lines.append(format_lesson(item))
 
     text = "\n".join(lines)
     if not text:
@@ -360,7 +407,10 @@ async def wait_date_handler(event, context):
     lesson_index = 0
     lines = []
 
-    group = context['FGS'][context['USERS'][str(event.user_id)]['group']]
+    selected_group, group = get_selected_schedule_group(event, context)
+    if not group:
+        await send_schedule_unavailable(event, selected_group)
+        return
 
     try:
         result = context["sched"].get_day(
@@ -378,10 +428,7 @@ async def wait_date_handler(event, context):
             lesson_index = item.index
             lines.append(f"{lesson_index} пара")
 
-        lines.append(
-            f"  {item.subject.name} ({item.cabinet}) - "
-            f"{'Лекция' if item.is_lecture() else item.type}"
-        )
+        lines.append(format_lesson(item))
 
     text = "\n".join(lines)
 

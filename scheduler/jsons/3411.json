@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Автомобили гр. 3411 23 человек(а) 2 подгр.",
+    "group": "3411",
+    "students": 23,
+    "subgroups": 2,
+    "title": "Инженерный Институт Автомобили"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Комплексный анализ хоз.деят",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "23.01"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А",
+                "date": "01.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВГОРОДНЯЯ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Экологическая безопасность автотранспорта",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-419"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Д-419"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Д-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-419"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Д-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЗЮ Е.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Психология и этика проф.деят-ти",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФЕДОТОВ Б.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Нормативно-правовое обеспечение деят.предприят.АС",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "23.01"
+        },
+        "practice": {
+          "from": "30.11",
+          "to": "23.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-212"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЗЖЕННИКОВА Т.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Типаж и экспл-ция технол-го оборуд.",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А",
+                "date": "02.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОМНЫШЕВ Д.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Технол.пр.технич.обслуж.автотрансп.средств",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-119"
+              },
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А",
+                "date": "02.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-119"
+              },
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОЛГУШИН А.А. СУХОСЫР А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Организ-ция произ-ва на предпр.автом-го сервиса",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "12.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-118"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-113"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-118"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЧЕЛЬНИКОВ А.В. ПОНИЗОВСКИЙ А.Ю."
+        }
+      ]
+    }
+  ]
+}

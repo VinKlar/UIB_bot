@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Беспилотные системы в АПК гр. 3102 31 ЧЕЛОВЕК 2 ПОДГР",
+    "group": "3102",
+    "students": 31,
+    "subgroups": 2,
+    "title": "Инженерный Институт Беспилотные системы в АПК"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "История России",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-318"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЛАХУТА Д.О."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Математика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130",
+                "date": "05.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА Л.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Культура речи и деловое общение",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НУРТАЗИНОВА Б.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Начертательная геометрия и инж-ая гафика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЗЖЕННИКОВА Т.В. ТИХОНКИН И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Материалове-дение и тех-ии констр-ых матер-ов",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "14.09",
+          "to": "19.12"
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-108"
+              },
+              {
+                "room": "Н-122"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.КОНОРЕЕВ Р.В. ПР.АГАФОНОВА Е.В. ПР.ПОНИЗОВСКИЙ А.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Основы робототехники",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-104"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "2Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "2Б",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "2А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "2А",
+            "classroom": [
+              {
+                "room": "Н-235"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.БЛЕСКИН С.С. ПР.ГОЛИКОВ А.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Техника и технологии произ-ва продукции растениеводства",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-147"
+              },
+              {
+                "room": "Н-147А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-147"
+              },
+              {
+                "room": "Н-147А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЫНСКИЙ А.А. СУХОСЫР А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Основы российской государственности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "2",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ПЕЧИН Ю.В. ПР. ЛИТВИНОВА А.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "01.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВА Н.А. ШМАКОВА Т.П. ГОЛУБЕВ А.В. ПОЛОМОШНОВА О.Н. КОЛЕСОВ А.А. ФОТЕВА З.В. ПОДКОВЫРОВА Т.А. ВАКАНСИЯ"
+        }
+      ]
+    }
+  ]
+}

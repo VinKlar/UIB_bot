@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт ПО гр.3206 23 человек(а) 2 подгр.",
+    "group": "3206",
+    "students": 23,
+    "subgroups": 2,
+    "title": "Инженерный Институт ПО"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Возрастная физиология и психофизиология",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301",
+                "date": "01.09"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ДПВ-2/4 Основы компьютерной графики",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-325"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВУЛЬФЕРТ В.Я."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Общая педагогика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-325"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-325"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-325"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВУЛЬФЕРТ В.Я."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Основы техн-ии произв-ва машин",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-122А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-122А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-122А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-122А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-122А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ВЕРТЕЙ М.Л. ПОПОВ М.А. ИЛЯСОВ А.П."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Тракторы и автомобили",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-152",
+                "date": "02.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-152"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВЕРТЕЙ М.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-303"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-303"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕРОВА Н.А. 6А АЛИШОВА З.Т. 6Б"
+        }
+      ]
+    }
+  ]
+}

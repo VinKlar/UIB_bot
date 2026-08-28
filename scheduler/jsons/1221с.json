@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "raw": "ИФиПА Селекция гр. 1221с 3 человека 1 подгр.",
+    "group": "1221с",
+    "students": 3,
+    "subgroups": 1,
+    "title": "ИФиПА Селекция"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Оператор наземных средств управления БПЛА",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Генетические основы селекции растений на иммунитет",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЛЕЙБОЛТ Е.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "ДПВ-Генетика культурных растений",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОЧЕТОВ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Селекционные технологии с/х культур",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-236"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАМАНИН В.П."
+        }
+      ]
+    }
+  ]
+}

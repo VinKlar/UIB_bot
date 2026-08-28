@@ -1,0 +1,838 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Автомобили гр.3111- 34 человека,гр. 3112 -34 человека 4 подгр.",
+    "group": "3111,3112",
+    "students": 68,
+    "subgroups": 4,
+    "title": "Инженерный Институт Автомобили"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "История России",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-317"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЛАХУТА Д.О."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Математика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130",
+                "date": "05.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА Л.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Основы российской государственности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_6": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-327"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ПЕЧИН Ю.В. ПР. РОМАШЕВА В.Е."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Общая и социальная психология",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗЕНКОВА Н.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Начертательная геометрия и инж-ая гафика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-215"
+              },
+              {
+                "room": "Н-216"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЗЖЕННИКОВА Т.В. ТИХОНКИН И.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Общий курс транспорта",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-150"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БУЛАЕВ Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Русский язык и деловые коммуникации",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗЕНКОВА Н.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Материалове-дение и тех-ии констр-ых матер-ов",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "14.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "11",
+            "classroom": [
+              {
+                "room": "Н-108"
+              },
+              {
+                "room": "Н-122"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-130"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "12",
+            "classroom": [
+              {
+                "room": "Н-108"
+              },
+              {
+                "room": "Н-122"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.КОНОРЕЕВ Р.В. ПР.АГАФОНОВА Е.В. ПР.ПОНИЗОВСКИЙ А.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "01.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_4": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВА Н.А. ШМАКОВА Т.П. ГОЛУБЕВ А.В. ПОЛОМОШНОВА О.Н. КОЛЕСОВ А.А. ФОТЕВА З.В. ПОДКОВЫРОВА Т.А. ВАКАНСИЯ"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,11 @@ from typing import  Optional
 week_days : dict[str, int] = {"monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3, "friday": 4, "saturday": 5, "sunday": 6}
 
 
+def academic_year_start(today: date | None = None) -> int:
+    today = today or date.today()
+    return today.year if today.month >= 8 else today.year - 1
+
+
 class Meta (BaseModel): 
     group: str
 
@@ -16,7 +21,11 @@ class Period(BaseModel):
     @classmethod
     def convert_date(cls, value: str):
         parts = value.split(".") 
-        return date(date.today().year, int(parts[1]), int(parts[0]))
+        day = int(parts[0])
+        month = int(parts[1])
+        start_year = academic_year_start()
+        year = start_year if month >= 8 else start_year + 1
+        return date(year, month, day)
 
 class SubjectPeriods(BaseModel):
     lecture: Optional[Period] = None

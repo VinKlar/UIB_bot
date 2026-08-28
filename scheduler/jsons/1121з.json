@@ -1,106 +1,27 @@
 {
   "meta": {
-    "raw": "Магистратура ИФиПА Агробиотехнология в ЗР гр. 1121 - 7 чел. 1 подгр.",
-    "group": "1121",
-    "students": 7,
+    "raw": "ИФиПА Агробиотехнология в ЗР гр.1121з 12 человек 1 подгр.",
+    "group": "1121з",
+    "students": 12,
     "subgroups": 1,
-    "title": "Магистратура ИФиПА Агробиотехнология в ЗР"
+    "title": "ИФиПА Агробиотехнология в ЗР"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Методика профес. обучения",
+      "name": "Статистический анализ данных",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "07.02"
+          "from": "01.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "28.02"
+          "from": "07.09",
+          "to": "14.11"
         }
       },
       "nchet": {
-        "wednesday": {
-          "par_1": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_1": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "НАЗАРОВА М.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_2",
-      "name": "Интел. соб-ть и основы коммерциализации",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "14.02"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "06.03"
-        }
-      },
-      "nchet": {
-        "friday": {
+        "saturday": {
           "par_3": {
             "type": "Л",
             "classroom": [
@@ -113,7 +34,7 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-406"
               }
             ]
           },
@@ -121,7 +42,344 @@
             "type": "21",
             "classroom": [
               {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАТАЛОВА Е.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "ДПВ-Физиология и пат-ия насекомых",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "26.09"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-202"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАТАЛОВА Е.И."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Стратегический менеджмент на предприятиях АПК",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
                 "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Методика экспериментальных исследований",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Проф. иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21 | 21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21 | 21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОТКИХ Е.Г. 21 НЕПРАШ О.В. 21Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Биоэкология полезных организмов",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "19.09"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
               }
             ]
           }
@@ -133,15 +391,15 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-228А"
               }
             ]
           },
           "par_4": {
-            "type": "21",
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "ЗР-201"
               }
             ]
           }
@@ -149,102 +407,7 @@
       },
       "teachers": [
         {
-          "name": "ЗАВАЛЬНЮК Е.Ю."
-        }
-      ]
-    },
-    {
-      "id": "subj_3",
-      "name": "Методы иссл-ий в защите раст-ий",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "28.02"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "07.03"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_1": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_1": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ДУБОВСКИЙ И.М."
+          "name": "ЗЕНКОВА А.А."
         }
       ]
     }

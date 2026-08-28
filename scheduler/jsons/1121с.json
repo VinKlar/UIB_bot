@@ -1,32 +1,32 @@
 {
   "meta": {
-    "raw": "МАГИСТРАТУРА ИФиПА Селекция гр. 1121 - 5 чел. 1 подгр.",
-    "group": "1121",
+    "raw": "ИФиПА Селекция гр.1121с - 5 человек 1 подгр.",
+    "group": "1121с",
     "students": 5,
     "subgroups": 1,
-    "title": "МАГИСТРАТУРА ИФиПА Селекция"
+    "title": "ИФиПА Селекция"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Методика профес. обучения",
+      "name": "Статистический анализ данных",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "07.02"
+          "from": "01.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "28.02"
+          "from": "07.09",
+          "to": "14.11"
         }
       },
       "nchet": {
-        "thursday": {
+        "saturday": {
           "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Н-301"
+                "room": "д-406"
               }
             ]
           },
@@ -34,27 +34,27 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Н-301"
+                "room": "д-406"
               }
             ]
           },
           "par_3": {
-            "type": "Л",
+            "type": "л",
             "classroom": [
               {
-                "room": "Н-327"
+                "room": "д-418"
               }
             ]
           }
         }
       },
       "chet": {
-        "thursday": {
+        "saturday": {
           "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Н-303"
+                "room": "д-406"
               }
             ]
           },
@@ -62,15 +62,15 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Н-303"
+                "room": "д-406"
               }
             ]
           },
           "par_3": {
-            "type": "Л",
+            "type": "21",
             "classroom": [
               {
-                "room": "Н-327"
+                "room": "д-406"
               }
             ]
           }
@@ -78,30 +78,30 @@
       },
       "teachers": [
         {
-          "name": "НАЗАРОВА М.А."
+          "name": "ШАТАЛОВА Е.И."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Интел. соб-ть и основы коммерциализации",
+      "name": "Стратегический менеджмент на предприятиях АПК",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "14.02"
+          "from": "26.10",
+          "to": "28.11"
         },
         "practice": {
-          "from": "19.01",
-          "to": "06.03"
+          "from": "26.10",
+          "to": "28.11"
         }
       },
       "nchet": {
-        "friday": {
+        "thursday": {
           "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-405"
               }
             ]
           },
@@ -109,7 +109,7 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-405"
               }
             ]
           },
@@ -124,17 +124,17 @@
         }
       },
       "chet": {
-        "friday": {
+        "thursday": {
           "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-405"
               }
             ]
           },
           "par_2": {
-            "type": "21",
+            "type": "Л",
             "classroom": [
               {
                 "room": "Д-418"
@@ -145,86 +145,58 @@
       },
       "teachers": [
         {
-          "name": "ЗАВАЛЬНЮК Е.Ю."
+          "name": "ОЖОГОВА О.В."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "Соврем. тех-ии в селекции раст-й",
+      "name": "Методика экспериментальных исследований",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "14.02"
+          "from": "01.09",
+          "to": "24.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "11.03"
+          "from": "07.09",
+          "to": "24.10"
         }
       },
       "nchet": {
-        "tuesday": {
-          "par_3": {
+        "thursday": {
+          "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-233"
+                "room": "Д-406"
               }
             ]
           },
-          "par_4": {
+          "par_2": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-233"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-233"
+                "room": "Д-406"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          }
-        },
         "thursday": {
-          "par_4": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_2": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-233"
+                "room": "Д-418"
               }
             ]
           }
@@ -232,58 +204,54 @@
       },
       "teachers": [
         {
-          "name": "ЛЕЙБОЛТ Е.Л."
+          "name": "ГАЛЕЕВ Р.Р."
         }
       ]
     },
     {
       "id": "subj_4",
-      "name": "Генно-технологические основы селекции",
+      "name": "Проф. иностранный язык",
       "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "31.01"
-        },
         "practice": {
-          "from": "19.01",
-          "to": "21.02"
+          "from": "07.09",
+          "to": "21.11"
         }
       },
       "nchet": {
-        "monday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-236"
-              }
-            ]
-          },
-          "par_3": {
+        "friday": {
+          "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-236"
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-236"
-              }
-            ]
-          },
-          "par_3": {
+        "friday": {
+          "par_1": {
             "type": "21",
             "classroom": [
               {
-                "room": "Д-236"
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
               }
             ]
           }
@@ -291,67 +259,27 @@
       },
       "teachers": [
         {
-          "name": "КОНДРАТЬЕВА И.В."
+          "name": "КОРОТКИХ Е.Г. 21 НЕПРАШ О.В. 21Н"
         }
       ]
     },
     {
       "id": "subj_5",
-      "name": "ФТД-репродуктивная биология с/х растений",
+      "name": "Сельскохозяйственная биотехнология",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "14.02"
+          "from": "01.09",
+          "to": "10.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "21.02"
+          "from": "07.09",
+          "to": "14.11"
         }
       },
       "nchet": {
         "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
           "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "Л",
+            "type": "",
             "classroom": [
               {
                 "room": "ИЦИГ"
@@ -362,48 +290,8 @@
       },
       "chet": {
         "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
           "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ИЦИГ"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "Л",
+            "type": "",
             "classroom": [
               {
                 "room": "ИЦИГ"
@@ -414,7 +302,7 @@
       },
       "teachers": [
         {
-          "name": "МОРЕНКОВА Т.В."
+          "name": "СИДОРЧУК Ю.В."
         }
       ]
     }

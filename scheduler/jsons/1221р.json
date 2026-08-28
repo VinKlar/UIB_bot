@@ -1,32 +1,32 @@
 {
   "meta": {
-    "raw": "Магистратура ИФиПА Информационные технологии гр. 1221 - 12 чел. 1 подгр.",
-    "group": "1221",
-    "students": 12,
+    "raw": "ИФиПА Инновационные технологии гр.1221р 10 человек 1 подгр.",
+    "group": "1221р",
+    "students": 10,
     "subgroups": 1,
-    "title": "Магистратура ИФиПА Информационные технологии"
+    "title": "ИФиПА Инновационные технологии"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "формирование агроценозов кормовых культур",
+      "name": "Оператор наземных средств управления БПЛА",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "21.02"
+          "from": "13.10",
+          "to": "05.12"
         },
         "practice": {
-          "from": "19.01",
-          "to": "21.03"
+          "from": "19.10",
+          "to": "12.12"
         }
       },
       "nchet": {
-        "tuesday": {
+        "friday": {
           "par_4": {
-            "type": "21",
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-232"
+                "room": "Д-406"
               }
             ]
           },
@@ -34,35 +34,126 @@
             "type": "21",
             "classroom": [
               {
-                "room": "Д-323"
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Формирование агроценозов корм.культур",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "232"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
           "par_3": {
             "type": "21",
             "classroom": [
               {
                 "room": "Д-232"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-232"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-323"
               }
             ]
           }
@@ -75,89 +166,51 @@
       ]
     },
     {
-      "id": "subj_2",
-      "name": "ТЕХНОЛОГИИ ВОЗДЕЛЫВАНИЯ ВЫСОКОМАРЖ. КУЛЬТУР",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "14.03"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "21.03"
-        }
-      },
-      "nchet": {
-        "monday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "monday": {
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ГАЛЕЕВ Р.Р."
-        }
-      ]
-    },
-    {
       "id": "subj_3",
-      "name": "ДПВ-Програмир. урожаев",
+      "name": "Гис-технологии в растениеводстве",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "28.02"
+          "from": "13.10",
+          "to": "19.12"
         },
         "practice": {
-          "from": "12.01",
-          "to": "14.03"
+          "from": "13.10",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "monday": {
-          "par_4": {
+        "thursday": {
+          "par_5": {
             "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-406",
+                "date": "14.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
             "classroom": [
               {
                 "room": "Д-406"
@@ -171,28 +224,8 @@
                 "room": "Д-406"
               }
             ]
-          }
-        }
-      },
-      "chet": {
-        "monday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
           },
-          "par_4": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_5": {
+          "par_6": {
             "type": "21",
             "classroom": [
               {
@@ -204,58 +237,7 @@
       },
       "teachers": [
         {
-          "name": "ГАЛЕЕВ Р.Р."
-        }
-      ]
-    },
-    {
-      "id": "subj_4",
-      "name": "Инновационные тех-гии в агрономии",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "14.03"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "21.03"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_2": {
-            "type": "21",
-            "classroom": [
-              {
-                "room": "Д-406"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МАКАРОВА К.С."
+          "name": "РИКСЕН В.С."
         }
       ]
     }

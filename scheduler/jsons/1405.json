@@ -1,44 +1,40 @@
 {
   "meta": {
-    "raw": "ИФиПА Защита растений гр.1405 - 18 чел. 1 подгр.",
+    "raw": "ИФиПА Защита растений гр. 1405 - 13 человек 1 подгр.",
     "group": "1405",
-    "students": 18,
+    "students": 13,
     "subgroups": 1,
     "title": "ИФиПА Защита растений"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Менеджмент и маркетинг",
+      "name": "Агротехнический метод защиты растений",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "29.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "05.10",
+          "to": "14.11"
         }
       },
       "nchet": {
-        "monday": {
-          "par_2": {
+        "tuesday": {
+          "par_1": {
             "type": "5",
             "classroom": [
               {
-                "room": "Д-232"
+                "room": "зр-202"
               }
             ]
-          }
-        }
-      },
-      "chet": {
-        "monday": {
+          },
           "par_2": {
             "type": "5",
             "classroom": [
               {
-                "room": "Д-232"
+                "room": "зр-202"
               }
             ]
           },
@@ -46,7 +42,27 @@
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-327"
+                "room": "зр-202"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "зр-202"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "зр-202"
               }
             ]
           }
@@ -54,37 +70,64 @@
       },
       "teachers": [
         {
-          "name": "ОЖОГОВА О.В."
+          "name": "Л.ТОРОПОВА Е.Ю. ПР.СЕЛЮК М.П."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "ДПВ-Плодоводство",
+      "name": "Экономика и организации предприятия АПК",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "26.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "12.10",
+          "to": "26.12"
         }
       },
       "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418",
+                "date": "30.09"
+              }
+            ]
+          }
+        },
         "friday": {
-          "par_2": {
+          "par_3": {
             "type": "5",
             "classroom": [
               {
-                "room": "Д-228А"
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-433"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
+        "wednesday": {
           "par_3": {
             "type": "Л",
             "classroom": [
@@ -95,11 +138,19 @@
           }
         },
         "friday": {
-          "par_2": {
+          "par_4": {
             "type": "5",
             "classroom": [
               {
-                "room": "Д-228А"
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-433"
               }
             ]
           }
@@ -107,52 +158,68 @@
       },
       "teachers": [
         {
-          "name": "МАКАРОВА К.С."
+          "name": "НАКОНЕЧНАЯ О.А."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "Интегрированная защита растений",
+      "name": "С/х энтомология",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "12.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "05.10",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "monday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_2": {
+        "wednesday": {
+          "par_1": {
             "type": "5",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
               }
             ]
           }
         }
       },
       "chet": {
-        "thursday": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
           "par_2": {
             "type": "5",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
           }
@@ -160,66 +227,66 @@
       },
       "teachers": [
         {
-          "name": "ТОРОПОВА Е.Ю., СЕЛЮК М.П."
+          "name": "ЦВЕТКОВА В.П."
         }
       ]
     },
     {
       "id": "subj_4",
-      "name": "ДПВ-Иммунитет растений и селекция на устойчивость",
+      "name": "ДПВ-Правовые основы защиты растений",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "28.02"
+          "from": "09.11",
+          "to": "12.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "07.03"
+          "from": "16.11",
+          "to": "26.12"
         }
       },
       "nchet": {
-        "friday": {
+        "tuesday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
           "par_3": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_5": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
           }
         }
       },
       "chet": {
-        "friday": {
-          "par_3": {
+        "tuesday": {
+          "par_2": {
             "type": "5",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
           },
-          "par_4": {
+          "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
           }
@@ -227,30 +294,69 @@
       },
       "teachers": [
         {
-          "name": "ЗЕНКОВА А.А."
+          "name": "ЦВЕТКОВА В.П."
         }
       ]
     },
     {
       "id": "subj_5",
-      "name": "Биолог. защита растений",
+      "name": "Средства защиты растений",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "26.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "12.10",
+          "to": "26.12"
         }
       },
       "nchet": {
         "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "ЗР-402",
+                "date": "29.09"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "ЗР-201"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
           "par_3": {
             "type": "5",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
           },
@@ -258,11 +364,13 @@
             "type": "5",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "ЗР-201"
               }
             ]
-          },
-          "par_5": {
+          }
+        },
+        "tuesday": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
@@ -274,160 +382,30 @@
       },
       "teachers": [
         {
-          "name": "АНДРЕЕВА И.В."
+          "name": "ШПАТОВА Т.В."
         }
       ]
     },
     {
       "id": "subj_6",
-      "name": "Цифровые технологии в АПК",
+      "name": "Кормопроиз-во и луговодство",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "29.09",
+          "to": "12.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "12.10",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "wednesday": {
-          "par_1": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "НК-423"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          }
-        },
-        "wednesday": {
-          "par_1": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "НК-423"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "КАЛЯГИНА Е.И."
-        }
-      ]
-    },
-    {
-      "id": "subj_7",
-      "name": "ДПВ-Карантин растений",
-      "period": {
-        "lecture": {
-          "from": "09.03",
-          "to": "11.04"
-        },
-        "practice": {
-          "from": "16.03",
-          "to": "25.04"
-        }
-      },
-      "nchet": {
-        "wednesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "5",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ПИЛИПОВА Ю.В."
-        }
-      ]
-    },
-    {
-      "id": "subj_8",
-      "name": "ХиППР",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "11.04"
-        },
-        "practice": {
-          "from": "09.02",
-          "to": "11.04"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
         "thursday": {
           "par_3": {
-            "type": "5",
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-317"
+                "room": "Д-232"
               }
             ]
           },
@@ -435,29 +413,27 @@
             "type": "5",
             "classroom": [
               {
-                "room": "Д-317"
+                "room": "Д-232"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
+        "thursday": {
           "par_2": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-307"
               }
             ]
-          }
-        },
-        "thursday": {
+          },
           "par_3": {
             "type": "5",
             "classroom": [
               {
-                "room": "Д-317"
+                "room": "Д-232"
               }
             ]
           },
@@ -465,7 +441,7 @@
             "type": "5",
             "classroom": [
               {
-                "room": "Д-317"
+                "room": "Д-232"
               }
             ]
           }
@@ -473,7 +449,7 @@
       },
       "teachers": [
         {
-          "name": "ПОТАПОВА С.С. КОЛБИНА О.Н."
+          "name": "ПЕТРУК П.А."
         }
       ]
     }

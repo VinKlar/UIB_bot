@@ -8,8 +8,6 @@ from bot.file_cache import get_cached_file, set_cached_file
 
 with open("bot/scen.json", "r", encoding="utf-8") as file:
     SCEN = json.load(file)
-with open("bot/buttons_groups.json", "r", encoding="utf-8") as file:
-    GROUPS = json.load(file)
 
 import os
 import httpx
@@ -164,12 +162,11 @@ async def create_keyboard(buttons):
     }
     
 async def scen_worker(scen, **data):
-    
-    if data.get('ch_g') == True:
-        tmp_scen = copy.deepcopy(GROUPS[scen])
-    else:
-        tmp_scen = copy.deepcopy(SCEN[scen])
+    tmp_scen = copy.deepcopy(SCEN[scen])
     tmp_scen['text'] = tmp_scen['text'].format(text=data.get('text'))
+
+    if data.get("buttons") is not None:
+        tmp_scen["buttons"] = data["buttons"]
 
     if tmp_scen.get('buttons'):
         data_respons = {

@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "raw": "ИФиПА Агрохимия Автоматизированные системы гр. 1122а - 6 человек 1 подгр.",
+    "group": "1122а",
+    "students": 6,
+    "subgroups": 1,
+    "title": "ИФиПА Агрохимия Автоматизированные системы"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Электротехника и электроника",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-112"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-112"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-112"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-112"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-112"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛЮЖНЫЙ А.Т."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Биологические объекты закрытых систем",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "Д-129",
+                "date": "09.11"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "",
+            "classroom": [
+              {
+                "room": "Д-129",
+                "date": "02.11"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-130"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАЛЬЧИКОВА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Машино-технологическое обеспечение интеллектуального производства",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ТРУФЛЯК Е.В. ПР. ЯКОВЛЕВ Д.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Методика экспериментальных исследований",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Проф. иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": []
+    }
+  ]
+}

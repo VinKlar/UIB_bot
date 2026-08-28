@@ -1,0 +1,807 @@
+{
+  "meta": {
+    "raw": "Юридический факультет Юриспруденция гр.7101- 25 чел. 2 подгр.",
+    "group": "7101",
+    "students": 25,
+    "subgroups": 2,
+    "title": "Юридический факультет Юриспруденция"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы российской государственности",
+      "period": {
+        "lecture": {
+          "from": "12.10",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "20.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЕХТИНА Г.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Латинский язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШКИНА Т.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Математические основы инф.техн.в ЮД",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШИНА Л.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Информац-ые технологии в юр.деятельности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "20.01"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШИНА Л.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "История гос-ва и права России",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕМИДОВ Г.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Истор.гос-ва.и права зарубеж. стран",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕМИДОВ Г.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Культурологические проблемы в юруспруденции",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СОФИЕНКО М.Б."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Теория гос-ва и права",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРЧЕЕВ В.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физ-ра и спорт",
+      "period": {
+        "practice": {
+          "from": "01.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШМАКОВА Т.П. КОЛЕСОВ А.А. ПОДКОВЫРОВА Т.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АЛИШОВА З.Т."
+        }
+      ]
+    },
+    {
+      "id": "subj_11",
+      "name": "Иностранный язык в сфере юриспруденции",
+      "period": {
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534",
+                "date": "02.09"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АЛИШОВА З.Т."
+        }
+      ]
+    }
+  ]
+}

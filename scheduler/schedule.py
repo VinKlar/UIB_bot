@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, timedelta
 import scheduler.scheduler_parser as scheduler_parser
 
 
@@ -15,11 +15,11 @@ class DateRange:
         if period:
             return DateRange(period.start, period.end)
         else:
-            year = date.today().year
-            return DateRange(date(year, 1, 1), date(year, 12, 30))
+            start_year = scheduler_parser.academic_year_start()
+            return DateRange(date(start_year, 8, 1), date(start_year + 1, 7, 31))
 
     def in_range(self, date: date):
-        return date > self.__start and date < self.__end
+        return self.__start <= date <= self.__end
 
 class DayParser:
     
@@ -48,8 +48,9 @@ class Subject:
     
     @staticmethod
     def make_from(subject: scheduler_parser.Subject):
+        teacher = subject.teachers[0].name if subject.teachers else ""
         return Subject(
-            subject.name, subject.teachers[0].name, 
+            subject.name, teacher,
             DateRange.make_from(subject.period.lecture), 
             DateRange.make_from(subject.period.practice)
         )
@@ -72,7 +73,8 @@ class Lesson:
     
     @staticmethod
     def make_from(data: scheduler_parser.Lesson, index: int, subject: Subject):
-        return Lesson(index, subject, data.classroom[0].room, data.type)
+        cabinet = ", ".join(room.room for room in data.classroom)
+        return Lesson(index, subject, cabinet or "аудитория не указана", data.type)
 
 class LessonList:
     lessons : list[Lesson]
@@ -92,7 +94,11 @@ class LessonList:
 
 class GroupSchedule:
     days: dict[int, LessonList]# week_day -> LessonList
-    day_parser: DayParser = DayParser(date(2025, 9, 1))
+    start_year = scheduler_parser.academic_year_start()
+    september_first = date(start_year, 9, 1)
+    day_parser: DayParser = DayParser(
+        september_first - timedelta(days=september_first.weekday())
+    )
 
     def __init__(self):
         self.days = {}
@@ -113,8 +119,10 @@ class GroupSchedule:
 
     def get_day(self, day: date) -> list[Lesson]:
         day_index = self.day_parser.parse(day)
-        if day_index:
-            subject_list = self.days[day_index]
+        if day_index is not None:
+            subject_list = self.days.get(day_index)
+            if subject_list is None:
+                return []
             return subject_list.get_subjects(day)
         
         return []

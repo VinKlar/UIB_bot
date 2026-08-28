@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Техн.сис.в агробиз. гр. 3401 20 человек(а) 2 подгр.",
+    "group": "3401",
+    "students": 20,
+    "subgroups": 2,
+    "title": "Инженерный Институт Техн.сис.в агробиз."
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Правоведение",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЛКОВ В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Автоматика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-100",
+                "date": "05.10"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БОЛОТОВ Д.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Технич.обслуж.и диагностика машин",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОМНЫШЕВ Д.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Технологические процессы восстановления деталей машин",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-113"
+              },
+              {
+                "room": "Н-118"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-113"
+              },
+              {
+                "room": "Н-118"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ПОПОВ М.А. ИЛЯСОВ А.П. ВЕРТЕЙ М.Л."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Экономика и организация произв-ва на предприяиях АПК",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОНУРОВСКАЯ В.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Проект-ние технол-го обор-ния для механ-х работ",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-121",
+                "date": "29.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОМНЫШЕВ Д.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ЭМТП",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРНОСОВ А.Ф."
+        }
+      ]
+    }
+  ]
+}

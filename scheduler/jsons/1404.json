@@ -1,54 +1,68 @@
 {
   "meta": {
-    "raw": "ИФиПА Агрохимия и Агропочвоведение гр. 1404 - 8 чел. 1 подгр.",
+    "raw": "ИФиПА Агрохимия и Агропочвоведение гр.1404 11 человек 1 подгр.",
     "group": "1404",
-    "students": 8,
+    "students": 11,
     "subgroups": 1,
     "title": "ИФиПА Агрохимия и Агропочвоведение"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "ДПВ-Плодоводство",
+      "name": "Методы почвенных исследований",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "05.10",
+          "to": "14.11"
         }
       },
       "nchet": {
         "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
           "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-228А"
+                "room": "Д-118"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
-          "par_3": {
+        "friday": {
+          "par_1": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-118"
               }
             ]
-          }
-        },
-        "friday": {
+          },
           "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-228А"
+                "room": "Д-118"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-118"
               }
             ]
           }
@@ -56,52 +70,87 @@
       },
       "teachers": [
         {
-          "name": "МАКАРОВА К.С."
+          "name": "МИТРАКОВА А.Г."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Интегрированная защита растений",
+      "name": "Экономика и организации предприятия АПК",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "26.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "12.10",
+          "to": "26.12"
         }
       },
       "nchet": {
-        "monday": {
+        "wednesday": {
           "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-402"
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418",
+                "date": "30.09"
               }
             ]
           }
         },
-        "thursday": {
-          "par_2": {
+        "friday": {
+          "par_3": {
             "type": "4",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-433"
               }
             ]
           }
         }
       },
       "chet": {
-        "thursday": {
-          "par_2": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
             "type": "4",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-433"
               }
             ]
           }
@@ -109,50 +158,66 @@
       },
       "teachers": [
         {
-          "name": "ТОРОПОВА Е.Ю. СЕЛЮК М.П."
+          "name": "НАКОНЕЧНАЯ О.А."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "Менеджмент и маркетинг",
+      "name": "Система удобрений",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "09.11",
+          "to": "12.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "16.11",
+          "to": "26.12"
         }
       },
       "nchet": {
-        "monday": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
           "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-232"
+                "room": "Д-118"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-118"
+              }
+            ]
+          },
           "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-327"
+                "room": "Д-118"
               }
             ]
           },
           "par_3": {
-            "type": "Л",
+            "type": "4",
             "classroom": [
               {
-                "room": "Д-327"
+                "room": "Д-118"
               }
             ]
           }
@@ -160,48 +225,46 @@
       },
       "teachers": [
         {
-          "name": "ОЖОГОВА О.В."
+          "name": "МАРМУЛЕВ А.Н."
         }
       ]
     },
     {
       "id": "subj_4",
-      "name": "ХиППР",
+      "name": "Экологическое право",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "11.04"
+          "from": "29.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "09.02",
-          "to": "11.04"
+          "from": "05.10",
+          "to": "14.11"
         }
       },
       "nchet": {
         "tuesday": {
-          "par_2": {
+          "par_1": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-404"
               }
             ]
-          }
-        },
-        "thursday": {
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
           "par_3": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-317"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-317"
+                "room": "Д-404"
               }
             ]
           }
@@ -209,29 +272,19 @@
       },
       "chet": {
         "tuesday": {
-          "par_2": {
+          "par_1": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
-              }
-            ]
-          }
-        },
-        "thursday": {
-          "par_3": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-317"
+                "room": "Д-404"
               }
             ]
           },
-          "par_4": {
+          "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-317"
+                "room": "Д-404"
               }
             ]
           }
@@ -239,30 +292,30 @@
       },
       "teachers": [
         {
-          "name": "ПОТАПОВА С.С. КОЛБИНА О.Н."
+          "name": "МАЛАХОВА Н.А."
         }
       ]
     },
     {
       "id": "subj_5",
-      "name": "С.х. радиология",
+      "name": "Экол.эксп-за",
       "period": {
         "lecture": {
-          "from": "16.03",
-          "to": "18.04"
+          "from": "29.09",
+          "to": "14.11"
         },
         "practice": {
-          "from": "23.03",
-          "to": "02.05"
+          "from": "05.10",
+          "to": "13.01"
         }
       },
       "nchet": {
-        "wednesday": {
+        "monday": {
           "par_1": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-404"
+                "room": "Д-405"
               }
             ]
           },
@@ -270,143 +323,16 @@
             "type": "4",
             "classroom": [
               {
-                "room": "Д-404"
+                "room": "Д-405"
               }
             ]
           },
-          "par_3": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_1": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-404"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МАЛАХОВА Н.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_6",
-      "name": "Агроэкологическая оценка земель",
-      "period": {
-        "lecture": {
-          "from": "22.01",
-          "to": "21.02"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "07.03"
-        }
-      },
-      "nchet": {
-        "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "МАЛАХОВА Н.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_7",
-      "name": "ДПВ-Станд-ия с.х. объектов",
-      "period": {
-        "lecture": {
-          "from": "22.01",
-          "to": "21.02"
-        },
-        "practice": {
-          "from": "26.01",
-          "to": "07.03"
-        }
-      },
-      "nchet": {
-        "tuesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-404"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_1": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-231А"
+                "room": "Д-405",
+                "date": "12.10"
               }
             ]
           }
@@ -414,31 +340,75 @@
       },
       "chet": {
         "monday": {
-          "par_4": {
-            "type": "4",
-            "classroom": [
-              {
-                "room": "Д-231А"
-              }
-            ]
-          }
-        },
-        "tuesday": {
           "par_1": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-404"
+                "room": "Д-405"
               }
             ]
-          }
-        },
-        "friday": {
-          "par_1": {
+          },
+          "par_2": {
             "type": "4",
             "classroom": [
               {
-                "room": "Д-231А"
+                "room": "Д-405"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТЕНЬКОВА Е.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Основы экотоксикологии",
+      "period": {
+        "practice": {
+          "from": "29.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-405",
+                "date": "05.10"
               }
             ]
           }
@@ -451,47 +421,61 @@
       ]
     },
     {
-      "id": "subj_8",
-      "name": "Цифровые технологии в АПК",
+      "id": "subj_7",
+      "name": "Кормопроиз-во и луговодство",
       "period": {
         "lecture": {
-          "from": "22.01",
-          "to": "02.05"
+          "from": "29.09",
+          "to": "12.12"
         },
         "practice": {
-          "from": "02.01",
-          "to": "02.05"
+          "from": "12.10",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "tuesday": {
+        "thursday": {
           "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "НК-423"
+                "room": "Д-307"
               }
             ]
-          }
-        },
-        "wednesday": {
+          },
           "par_4": {
             "type": "4",
             "classroom": [
               {
-                "room": "НК-423"
+                "room": "Д-232"
               }
             ]
           }
         }
       },
       "chet": {
-        "wednesday": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          },
           "par_3": {
             "type": "4",
             "classroom": [
               {
-                "room": "НК-423"
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-232"
               }
             ]
           }
@@ -499,7 +483,7 @@
       },
       "teachers": [
         {
-          "name": "КАЛЯГИНА Е.И."
+          "name": "ПЕТРУК В.А."
         }
       ]
     }

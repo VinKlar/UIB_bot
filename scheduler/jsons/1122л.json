@@ -1,27 +1,27 @@
 {
   "meta": {
-    "raw": "Магистратура ИФиПА Лесное дело гр. 1122 - 11 чел. 1 подгр.",
-    "group": "1122",
-    "students": 11,
+    "raw": "ИФиПА Лесное дело гр. 1122 л 10 человек 1 подгр.",
+    "group": "1122л",
+    "students": 10,
     "subgroups": 1,
-    "title": "Магистратура ИФиПА Лесное дело"
+    "title": "ИФиПА Лесное дело"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Системный анализ и моделирование в лесном хоз-ве",
+      "name": "Системный анализ и модел. в л. х.",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "18.04"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "19.01",
-          "to": "18.04"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "friday": {
+        "thursday": {
           "par_4": {
             "type": "22",
             "classroom": [
@@ -30,20 +30,29 @@
               }
             ]
           }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А",
+                "date": "04.09"
+              }
+            ]
+          }
         }
       },
       "chet": {
         "thursday": {
-          "par_7": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          }
-        },
-        "friday": {
           "par_4": {
             "type": "22",
             "classroom": [
@@ -56,25 +65,25 @@
       },
       "teachers": [
         {
-          "name": "ЯКУБЕНКО О.Е. ТРЕТЬЯКОВА Р.А."
+          "name": "Л.ЯКУБЕНКО О.Е. ПР.ТРЕТЬЯКОВА Р.А."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Интенсификация ведения лесного хозяйства",
+      "name": "Прогрессивные технологии получения посад.",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "28.03"
+          "from": "01.09",
+          "to": "10.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "18.04"
+          "from": "07.09",
+          "to": "28.11"
         }
       },
       "nchet": {
-        "saturday": {
+        "wednesday": {
           "par_5": {
             "type": "22",
             "classroom": [
@@ -82,137 +91,11 @@
                 "room": "Д-224"
               }
             ]
-          },
-          "par_6": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
           }
-        }
-      },
-      "chet": {
+        },
         "thursday": {
-          "par_4": {
+          "par_7": {
             "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          }
-        },
-        "saturday": {
-          "par_5": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ПАРКИНА О.В. ГУРЬЯНОВ Р.С."
-        }
-      ]
-    },
-    {
-      "id": "subj_3",
-      "name": "Актуальные проблемы развития лесного комплекса",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "28.02"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "11.04"
-        }
-      },
-      "nchet": {
-        "friday": {
-          "par_5": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "friday": {
-          "par_5": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ДОЛГУШИН Г.Н."
-        }
-      ]
-    },
-    {
-      "id": "subj_4",
-      "name": "Правовые и соц. аспекты устойчивого лесоупр.",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "14.02"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "18.04"
-        }
-      },
-      "nchet": {
-        "saturday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "22",
             "classroom": [
               {
                 "room": "Д-224"
@@ -222,75 +105,8 @@
         }
       },
       "chet": {
-        "saturday": {
-          "par_4": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "НАРЗЯЕВ В.В."
-        }
-      ]
-    },
-    {
-      "id": "subj_5",
-      "name": "Комплексное рациональное использование лесных ресурсов",
-      "period": {
-        "lecture": {
-          "from": "12.01",
-          "to": "28.02"
-        },
-        "practice": {
-          "from": "19.01",
-          "to": "11.04"
-        }
-      },
-      "nchet": {
-        "thursday": {
-          "par_4": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          },
+        "wednesday": {
           "par_5": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "thursday": {
-          "par_5": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          },
-          "par_6": {
             "type": "22",
             "classroom": [
               {
@@ -303,6 +119,229 @@
       "teachers": [
         {
           "name": "ПАРКИНА О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Госуд. управление лесами",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАРКИНА О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Проф. иностр. язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21 | 21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "21Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21 | 21Н",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОТКИХ Е.Г. 21 НЕПРАШ О.В. 21Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Основы лесной биогеоценологии",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЯКУБЕНКО О.Е."
         }
       ]
     }

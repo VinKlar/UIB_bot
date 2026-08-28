@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "raw": "Юридический факультет Юриспруденция гр.7241- 12 чел. 1 подгр",
+    "group": "7241",
+    "students": 12,
+    "subgroups": 1,
+    "title": "Юридический факультет Юриспруденция"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "ДПВ-КСЕ",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "26.09"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "03.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕРГЕЕВ С.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Административное право",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "30.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРЧЕЕВ В.С."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Конституционное право",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "30.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕМИДОВ Г.К."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Конституционное право зарубеж.стран",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "14.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЕЛЕНОВ Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Экономика для юристов",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "26.09"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "03.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАРАВИНА Е.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Прокурорский надзор",
+      "period": {
+        "lecture": {
+          "from": "12.10",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АГЕЕВ С.Г."
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Философия",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "10.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "41",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕРГЕЕВ С.С."
+        }
+      ]
+    }
+  ]
+}

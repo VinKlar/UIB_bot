@@ -1,55 +1,55 @@
 {
   "meta": {
-    "raw": "ИФиПА Лесное дело гр. 1108 - 28 чел. 2 подгр.",
+    "raw": "ИФиПА Лесное дело гр.1108 - 25 человек 2 подгр.",
     "group": "1108",
-    "students": 28,
+    "students": 25,
     "subgroups": 2,
     "title": "ИФиПА Лесное дело"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Почвоведение",
+      "name": "История России",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "11.04"
+          "from": "01.09",
+          "to": "28.11"
         },
         "practice": {
-          "from": "02.02",
-          "to": "18.04"
+          "from": "07.09",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "tuesday": {
-          "par_3": {
-            "type": "8А",
+        "thursday": {
+          "par_1": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-116"
+                "room": "А-2"
               }
             ]
           },
-          "par_4": {
-            "type": "8Б",
+          "par_2": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-116"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-116"
+                "room": "А-2"
               }
             ]
           }
         },
-        "wednesday": {
-          "par_4": {
-            "type": "Л",
+        "friday": {
+          "par_1": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
             "classroom": [
               {
                 "room": "Д-327"
@@ -59,35 +59,35 @@
         }
       },
       "chet": {
-        "tuesday": {
-          "par_3": {
-            "type": "8Б",
+        "thursday": {
+          "par_1": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-116"
+                "room": "А-2"
               }
             ]
           },
-          "par_4": {
-            "type": "8А",
+          "par_2": {
+            "type": "8",
             "classroom": [
               {
-                "room": "Д-116"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "8А",
-            "classroom": [
-              {
-                "room": "Д-116"
+                "room": "А-2"
               }
             ]
           }
         },
-        "wednesday": {
-          "par_3": {
-            "type": "Л",
+        "friday": {
+          "par_1": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-327"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "8",
             "classroom": [
               {
                 "room": "Д-327"
@@ -98,75 +98,46 @@
       },
       "teachers": [
         {
-          "name": "ДОБРЯНСКАЯ С.Л."
+          "name": "КОНОВАЛОВ А.В."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Химия",
+      "name": "Математика",
       "period": {
         "lecture": {
-          "from": "19.01",
-          "to": "04.04"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "26.01",
-          "to": "11.04"
+          "from": "07.09",
+          "to": "19.12"
         }
       },
       "nchet": {
         "monday": {
           "par_1": {
-            "type": "8А",
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-315"
+                "room": "Н-308"
               }
             ]
           },
           "par_2": {
-            "type": "8А",
+            "type": "8",
             "classroom": [
               {
-                "room": "Д-315"
-              }
-            ]
-          }
-        },
-        "tuesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-315"
+                "room": "Н-308"
               }
             ]
           },
           "par_3": {
-            "type": "8Б",
+            "type": "8",
             "classroom": [
               {
-                "room": "Д-315"
-              }
-            ]
-          }
-        },
-        "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-315"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-315",
-                "date": "21.01"
+                "room": "Н-323"
               }
             ]
           }
@@ -175,36 +146,18 @@
       "chet": {
         "monday": {
           "par_1": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-315"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-315"
-              }
-            ]
-          }
-        },
-        "tuesday": {
-          "par_2": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-315"
+                "room": "Н-308"
               }
             ]
           },
-          "par_3": {
-            "type": "8А",
+          "par_2": {
+            "type": "8",
             "classroom": [
               {
-                "room": "Д-315"
+                "room": "Н-308"
               }
             ]
           }
@@ -212,82 +165,60 @@
       },
       "teachers": [
         {
-          "name": "КОНДРАТЬЕВА Ю.В."
+          "name": "ФОМИНА Т.В."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "Ботаника",
+      "name": "Информатика",
       "period": {
         "lecture": {
-          "from": "19.01",
-          "to": "04.04"
+          "from": "01.09",
+          "to": "24.10"
         },
         "practice": {
-          "from": "26.01",
-          "to": "11.04"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "friday": {
-          "par_1": {
-            "type": "8А",
-            "classroom": [
-              {
-                "room": "Д-130"
-              }
-            ]
-          },
+        "tuesday": {
           "par_2": {
-            "type": "8А",
-            "classroom": [
-              {
-                "room": "Д-130"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
-              }
-            ]
-          },
-          "par_4": {
             "type": "8Б",
             "classroom": [
               {
-                "room": "Д-130"
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8А",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-2"
               }
             ]
           }
         }
       },
       "chet": {
-        "friday": {
-          "par_1": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-130"
-              }
-            ]
-          },
+        "tuesday": {
           "par_2": {
             "type": "8Б",
             "classroom": [
               {
-                "room": "Д-130"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-327"
+                "room": "НК-303"
               }
             ]
           },
@@ -295,7 +226,17 @@
             "type": "8А",
             "classroom": [
               {
-                "room": "Д-130"
+                "room": "НК-303"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-2"
               }
             ]
           }
@@ -303,66 +244,94 @@
       },
       "teachers": [
         {
-          "name": "ИВАНОВА Н.В."
+          "name": "КАЛЯГИНА Е.И."
         }
       ]
     },
     {
       "id": "subj_4",
-      "name": "Дендрология",
+      "name": "Физика",
       "period": {
         "lecture": {
-          "from": "23.03",
-          "to": "25.04"
+          "from": "01.09",
+          "to": "14.11"
         },
         "practice": {
-          "from": "30.03",
-          "to": "09.05"
+          "from": "07.09",
+          "to": "21.11"
         }
       },
       "nchet": {
-        "monday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          },
+        "thursday": {
           "par_4": {
-            "type": "8",
+            "type": "8Б",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-324"
               }
             ]
           },
           "par_5": {
-            "type": "8",
+            "type": "8Б",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-324"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-324"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8А",
+            "classroom": [
+              {
+                "room": "Д-324"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
+        "wednesday": {
+          "par_5": {
+            "type": "8Б",
+            "classroom": [
+              {
+                "room": "Д-324"
+              }
+            ]
+          }
+        },
+        "friday": {
           "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-324"
               }
             ]
           },
           "par_4": {
-            "type": "8",
+            "type": "8А",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-324"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8А",
+            "classroom": [
+              {
+                "room": "Д-324"
               }
             ]
           }
@@ -370,52 +339,50 @@
       },
       "teachers": [
         {
-          "name": "НОВОСЕЛОВ С.Л."
+          "name": "МИТИНА Л.А."
         }
       ]
     },
     {
       "id": "subj_5",
-      "name": "Климатология и метеорология",
+      "name": "Основы проектной деятельности",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "02.05"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "tuesday": {
-          "par_1": {
+        "monday": {
+          "par_4": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-129"
+                "room": "Д-231"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
-          "par_1": {
-            "type": "8",
-            "classroom": [
-              {
-                "room": "Д-129"
-              }
-            ]
-          }
-        },
-        "thursday": {
+        "monday": {
           "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-327"
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
               }
             ]
           }
@@ -423,79 +390,68 @@
       },
       "teachers": [
         {
-          "name": "ЧЕБОТАРЕВА Н.А."
+          "name": "ТРЕТЬЯКОВА Р.В."
         }
       ]
     },
     {
       "id": "subj_6",
-      "name": "Иностр.язык",
+      "name": "Начертательная геометрия",
       "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
         "practice": {
-          "from": "26.01",
-          "to": "02.05"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "wednesday": {
+        "monday": {
           "par_2": {
-            "type": "8А | 8Б",
+            "type": "8А",
             "classroom": [
               {
-                "room": "Д-236"
-              },
+                "room": "Н-327"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "8Б",
+            "classroom": [
               {
-                "room": "Д-233"
+                "room": "Н-327"
               }
             ]
           },
-          "par_5": {
-            "type": "8Н",
+          "par_4": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Н-306"
+                "room": "Н-315"
               }
             ]
           }
         }
       },
       "chet": {
-        "wednesday": {
-          "par_1": {
-            "type": "8А | 8Б",
+        "tuesday": {
+          "par_3": {
+            "type": "8Б",
             "classroom": [
               {
-                "room": "Д-236"
-              },
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "8А | 8Б",
-            "classroom": [
-              {
-                "room": "Д-236"
-              },
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "8Н",
-            "classroom": [
-              {
-                "room": "Н-306"
+                "room": "Н-303"
               }
             ]
           },
           "par_5": {
-            "type": "8Н",
+            "type": "8А",
             "classroom": [
               {
-                "room": "Н-306"
+                "room": "Н-327"
               }
             ]
           }
@@ -503,26 +459,26 @@
       },
       "teachers": [
         {
-          "name": "ЧЕРНИКОВА П.Г.-8Б МАШКОВА С.С.-8А НЕПРАШ О.С.-8Н"
+          "name": "СЕМЕНОВА Т.В."
         }
       ]
     },
     {
       "id": "subj_7",
-      "name": "Биосферная роль лесов",
+      "name": "История лесного дела",
       "period": {
         "lecture": {
-          "from": "19.01",
-          "to": "25.04"
+          "from": "01.09",
+          "to": "14.11"
         },
         "practice": {
-          "from": "26.01",
-          "to": "25.04"
+          "from": "07.09",
+          "to": "21.11"
         }
       },
       "nchet": {
-        "wednesday": {
-          "par_3": {
+        "monday": {
+          "par_5": {
             "type": "Л",
             "classroom": [
               {
@@ -531,12 +487,20 @@
             ]
           }
         },
-        "thursday": {
-          "par_2": {
+        "wednesday": {
+          "par_4": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-231"
               }
             ]
           }
@@ -544,15 +508,19 @@
       },
       "chet": {
         "thursday": {
-          "par_2": {
+          "par_4": {
             "type": "8",
             "classroom": [
               {
-                "room": "Д-224"
-              },
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
               {
-                "room": "Д-231",
-                "date": "29.01"
+                "room": "Д-231"
               }
             ]
           }
@@ -560,27 +528,100 @@
       },
       "teachers": [
         {
-          "name": "ТРЕТЬЯКОВА Р.А."
+          "name": "ЯКУБЕНКО О.Е."
         }
       ]
     },
     {
       "id": "subj_8",
-      "name": "Геодезия с основами землеустр-ва",
+      "name": "Физическая культура и спорт",
       "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "25.04"
-        },
         "practice": {
-          "from": "02.02",
-          "to": "02.05"
+          "from": "01.09",
+          "to": "05.12"
         }
       },
       "nchet": {
         "thursday": {
           "par_3": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "СПЗ",
+            "classroom": [
+              {
+                "room": "А"
+              },
+              {
+                "room": "Б"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШМАКОВА Т.П. КОЛЕСОВ А.А. ПОДКОВЫРОВА Т.А. ПОЛОМОШНОВА О.Н. ГОЛУБЕВА Н.А. ГОЛУБЕВ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Основы российской государственности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
             "type": "Л",
+            "classroom": [
+              {
+                "room": "А-2"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-2"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "8",
             "classroom": [
               {
                 "room": "Д-327"
@@ -588,42 +629,10 @@
             ]
           },
           "par_4": {
-            "type": "8А",
+            "type": "8",
             "classroom": [
               {
-                "room": "Д-416"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_5": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-416"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "thursday": {
-          "par_4": {
-            "type": "8Б",
-            "classroom": [
-              {
-                "room": "Д-416"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_5": {
-            "type": "8А",
-            "classroom": [
-              {
-                "room": "Д-416"
+                "room": "Д-327"
               }
             ]
           }
@@ -631,7 +640,7 @@
       },
       "teachers": [
         {
-          "name": "ТУЛИГЛОВИЧ С.М."
+          "name": "РЫБАКОВ Ю.И."
         }
       ]
     }

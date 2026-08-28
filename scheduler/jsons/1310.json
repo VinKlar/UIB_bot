@@ -1,112 +1,70 @@
 {
   "meta": {
-    "raw": "ИФиПА Ландшафт гр. 1310 - 27 чел. 2 подгр.",
+    "raw": "ИФиПА Ландшафтная архитектура гр.1310 - 18 человек 2 подгр.",
     "group": "1310",
-    "students": 27,
+    "students": 18,
     "subgroups": 2,
-    "title": "ИФиПА Ландшафт"
+    "title": "ИФиПА Ландшафтная архитектура"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Фитопатология и энтомология",
+      "name": "Бжд",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "14.03"
+          "from": "15.09",
+          "to": "21.11"
         },
         "practice": {
-          "from": "09.02",
-          "to": "21.03"
+          "from": "21.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "monday": {
+        "tuesday": {
           "par_1": {
-            "type": "10А",
+            "type": "10",
             "classroom": [
               {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10А",
-            "classroom": [
-              {
-                "room": "ЗР-201"
+                "room": "Д-420"
               }
             ]
           }
         },
         "thursday": {
-          "par_1": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_3": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-402"
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-419"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
-          "par_1": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          }
-        },
         "thursday": {
-          "par_1": {
-            "type": "10А",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10А",
-            "classroom": [
-              {
-                "room": "ЗР-201"
-              }
-            ]
-          },
-          "par_3": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-402"
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-419"
               }
             ]
           }
@@ -114,94 +72,54 @@
       },
       "teachers": [
         {
-          "name": "ГЕРБЕР О.Н."
+          "name": "ОВЧИННИКОВА Л.А."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Фитопатология и энтомология",
+      "name": "Методология проектирования ландшафтных объктов",
       "period": {
         "lecture": {
-          "from": "02.03",
-          "to": "08.05"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "09.03",
-          "to": "08.05"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
-        "tuesday": {
-          "par_1": {
-            "type": "10Б",
+        "wednesday": {
+          "par_3": {
+            "type": "Л | 10",
             "classroom": [
               {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "Л",
-            "classroom": [
+                "room": "Д-129",
+                "date": "02.09"
+              },
               {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_1": {
-            "type": "10А",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10А",
-            "classroom": [
-              {
-                "room": "ЗР-202"
+                "room": "Д-129"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
-          "par_1": {
-            "type": "10А",
+        "wednesday": {
+          "par_3": {
+            "type": "10",
             "classroom": [
               {
-                "room": "ЗР-202"
+                "room": "Д-129"
               }
             ]
           },
-          "par_2": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "ЗР-402"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_1": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-202"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "ЗР-202"
+                "room": "Д-129"
               }
             ]
           }
@@ -209,30 +127,160 @@
       },
       "teachers": [
         {
-          "name": "КАЗАКОВА О.А."
+          "name": "ПАЛЬЧИКОВА Е.В."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "Цифровые технологии в ландш. архитектуре",
+      "name": "Цифровые технологии в ЛА",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "02.05"
+          "from": "14.09",
+          "to": "19.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "02.05"
+          "from": "21.09",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "tuesday": {
-          "par_4": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л | 10",
+            "classroom": [
+              {
+                "room": "Д-127",
+                "date": "16.09"
+              },
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
             "type": "10",
             "classroom": [
               {
                 "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ВЫШЕГУРОВ С.Х. ПР.СУМИНА С.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Новые технологии в ландшафтном строительстве",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-226",
+                "date": "9.11"
+              },
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-415",
+                "date": "16.11"
+              },
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ВЫШЕГУРОВ С.Х. ПР. КУНГУРЦЕВ А.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Дендрометрия",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-226"
               }
             ]
           },
@@ -240,19 +288,30 @@
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-127"
+                "room": "Д-226",
+                "date": "02.09"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-233"
               }
             ]
           }
         }
       },
       "chet": {
-        "tuesday": {
-          "par_4": {
+        "thursday": {
+          "par_3": {
             "type": "10",
             "classroom": [
               {
-                "room": "Д-127"
+                "room": "Д-233"
               }
             ]
           }
@@ -260,121 +319,24 @@
       },
       "teachers": [
         {
-          "name": "ВЫШЕГУРОВ С.Х. СУМИНА С.А."
+          "name": "ТРЕТЬЯКОВА Р.А."
         }
       ]
     },
     {
-      "id": "subj_4",
-      "name": "Механизация и автоматизация процессов в андшф-м",
+      "id": "subj_6",
+      "name": "Ланшафтное проектирование городских территорий",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "11.04"
+          "from": "26.10",
+          "to": "12.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "18.04"
+          "from": "02.11",
+          "to": "19.12"
         }
       },
       "nchet": {
-        "wednesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-232"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-129"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "wednesday": {
-          "par_2": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-232"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-129"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-129"
-              }
-            ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ВЫШЕГУРОВ С.Х. ВАСИЛЬЕВ А.А."
-        }
-      ]
-    },
-    {
-      "id": "subj_5",
-      "name": "Ландшафтное проектирование городских территорий",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "02.05"
-        },
-        "practice": {
-          "from": "02.02",
-          "to": "02.05"
-        }
-      },
-      "nchet": {
-        "monday": {
-          "par_1": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "Д-127"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "10Б",
-            "classroom": [
-              {
-                "room": "Д-127"
-              }
-            ]
-          }
-        },
-        "wednesday": {
-          "par_1": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-129"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
         "monday": {
           "par_1": {
             "type": "10А",
@@ -385,6 +347,64 @@
             ]
           },
           "par_2": {
+            "type": "10А",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-129"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_5": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10Б",
+            "classroom": [
+              {
+                "room": "Д-127"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-226"
+              }
+            ]
+          },
+          "par_5": {
             "type": "10А",
             "classroom": [
               {
@@ -401,94 +421,37 @@
       ]
     },
     {
-      "id": "subj_6",
-      "name": "Правоведение",
+      "id": "subj_7",
+      "name": "Градостроительство с основами архитектуры",
       "period": {
         "lecture": {
-          "from": "26.01",
-          "to": "21.03"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "04.04"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
         "tuesday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-307"
-              }
-            ]
-          },
-          "par_6": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          }
-        }
-      },
-      "chet": {
-        "tuesday": {
-          "par_3": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-307"
-              }
-            ]
-          }
-        },
-        "saturday": {
-          "par_1": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-233"
-              }
-            ]
-          },
           "par_2": {
             "type": "10",
             "classroom": [
               {
-                "room": "Д-233"
+                "room": "Д-405"
               }
             ]
-          }
-        }
-      },
-      "teachers": [
-        {
-          "name": "ШЕВЧЕНКО И.В."
-        }
-      ]
-    },
-    {
-      "id": "subj_7",
-      "name": "Газоноведение и газоноводство",
-      "period": {
-        "lecture": {
-          "from": "26.01",
-          "to": "02.05"
-        },
-        "practice": {
-          "from": "02.02",
-          "to": "02.05"
-        }
-      },
-      "nchet": {
-        "friday": {
+          },
           "par_3": {
-            "type": "10",
+            "type": "Л | 10",
             "classroom": [
               {
-                "room": "Д-127"
+                "room": "Д-405",
+                "date": "01.09"
+              },
+              {
+                "room": "Д-405"
               }
             ]
           },
@@ -496,15 +459,7 @@
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-127"
-              }
-            ]
-          },
-          "par_5": {
-            "type": "10",
-            "classroom": [
-              {
-                "room": "Д-127"
+                "room": "Д-405"
               }
             ]
           }
@@ -512,7 +467,78 @@
       },
       "teachers": [
         {
-          "name": "ШАБАНОВА М.Е."
+          "name": "ДЕГТЕРЕВА Л.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Механизация и автоатизация процессов в ландшафтном",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л | 10",
+            "classroom": [
+              {
+                "room": "Д-228А",
+                "date": "04.09"
+              },
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "10",
+            "classroom": [
+              {
+                "room": "Д-228А"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "Л.ВЫШЕГУРОВ С.Х. ПР.ВАСИЛЬЕВ А.А."
         }
       ]
     }

@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт ПО гр.3306 15 человек 1 подгр.",
+    "group": "3306",
+    "students": 15,
+    "subgroups": 1,
+    "title": "Инженерный Институт ПО"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Логика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6 | Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              },
+              {
+                "room": "Н-301",
+                "date": "30.09"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Психолого-педагогическое сопровождение обучающихся",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРНОИВАНОВ А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Информационные технологии в проф.-педагог.",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-227"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВУЛЬФЕРТ В.Я."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Педагогика проф.образования",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ФЕДОТОВ Б.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "БЖД",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6 | Л",
+            "classroom": [
+              {
+                "room": "Д-420"
+              },
+              {
+                "room": "Д-420",
+                "date": "01.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Д-420"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОНУРОВСКИЙ В.А."
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Диагностика и техническое обслуживание машин",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-121"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУРНОСОВ А.Ф."
+        }
+      ]
+    }
+  ]
+}

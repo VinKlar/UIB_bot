@@ -1,38 +1,28 @@
 {
   "meta": {
-    "raw": "МАГИСТРАТУРА ИФиПА Лесное дело гр. 1222 - 17 чел. 1 подгр.",
-    "group": "1222",
-    "students": 17,
+    "raw": "ИФиПА Лесное дело гр.1222 л 10 человек 1 подгр.",
+    "group": "1222л",
+    "students": 10,
     "subgroups": 1,
-    "title": "МАГИСТРАТУРА ИФиПА Лесное дело"
+    "title": "ИФиПА Лесное дело"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "ДПВ-Региональное лесоводство",
+      "name": "Управление биолог. и технолог. сист. в лесном хоз-ве",
       "period": {
         "lecture": {
-          "from": "02.02",
-          "to": "18.03"
+          "from": "01.09",
+          "to": "05.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "18.03"
+          "from": "07.09",
+          "to": "05.12"
         }
       },
       "nchet": {
         "thursday": {
-          "par_4": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_6": {
+          "par_3": {
             "type": "22",
             "classroom": [
               {
@@ -40,11 +30,11 @@
               }
             ]
           },
-          "par_7": {
-            "type": "22",
+          "par_4": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-226"
               }
             ]
           }
@@ -52,17 +42,7 @@
       },
       "chet": {
         "thursday": {
-          "par_7": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_6": {
+          "par_3": {
             "type": "22",
             "classroom": [
               {
@@ -70,11 +50,11 @@
               }
             ]
           },
-          "par_7": {
+          "par_4": {
             "type": "22",
             "classroom": [
               {
-                "room": "Д-224"
+                "room": "Д-226"
               }
             ]
           }
@@ -82,21 +62,21 @@
       },
       "teachers": [
         {
-          "name": "ПАРКИНА О.В. НОВОСЕЛОВ С.Л."
+          "name": "ПАРКИНА О.В."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "ДПВ-Научные основы селекции и семеноводства",
+      "name": "Методика профес. обучения",
       "period": {
         "lecture": {
-          "from": "02.02",
-          "to": "14.03"
+          "from": "13.10",
+          "to": "05.12"
         },
         "practice": {
-          "from": "02.02",
-          "to": "18.03"
+          "from": "19.10",
+          "to": "16.01"
         }
       },
       "nchet": {
@@ -105,7 +85,7 @@
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-233"
               }
             ]
           },
@@ -113,37 +93,27 @@
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231"
-              }
-            ]
-          },
-          "par_7": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-231"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_5": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
+                "room": "Д-233"
               }
             ]
           }
         }
       },
       "chet": {
-        "thursday": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
           "par_5": {
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231"
+                "room": "Д-233"
               }
             ]
           },
@@ -151,17 +121,7 @@
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231"
-              }
-            ]
-          }
-        },
-        "friday": {
-          "par_5": {
-            "type": "Л",
-            "classroom": [
-              {
-                "room": "Д-224"
+                "room": "Д-233"
               }
             ]
           }
@@ -170,6 +130,231 @@
       "teachers": [
         {
           "name": "ЯКУБЕНКО О.Е."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Актуальные проблемы развития лесного комплекса",
+      "period": {
+        "lecture": {
+          "from": "13.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОЛГУШИН Г.Н."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Инновацион. технолог. в лесного комплекса",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПАРКИНА О.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ГИС-технологии в лесном хоз-ве",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-224"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАБЛЯ М.Ю"
         }
       ]
     }

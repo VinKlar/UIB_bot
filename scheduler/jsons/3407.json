@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "raw": "Инженерный Институт Электрификация гр.3407 6 человек(а) 1 подгр.",
+    "group": "3407",
+    "students": 6,
+    "subgroups": 1,
+    "title": "Инженерный Институт Электрификация"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Правоведение",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВОЛКОВ В.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Экономика и организация произв-ва на предприяиях АПК",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-148А"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОНУРОВСКАЯ В.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "ЭМТП",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Н-120"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДОМНЫШЕВ Д.А. СУХОСЫР А.В."
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Электропривод",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-114"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-114"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-114"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-114"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-114"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУЗНЕЦОВ А.Ю."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Автоматика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "7",
+            "classroom": [
+              {
+                "room": "Д-100"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-100",
+                "date": "05.10"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БОЛОТОВ Д.С."
+        }
+      ]
+    }
+  ]
+}

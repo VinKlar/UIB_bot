@@ -1,80 +1,76 @@
 {
   "meta": {
-    "raw": "Магистратура ИФиПА Агроэкология гр. 1122 - 10 чел. 1 подгр.",
-    "group": "1122",
-    "students": 10,
+    "raw": "ИФиПА Агроэкология гр. 1122э - 5 человек 1 подгр.",
+    "group": "1122э",
+    "students": 5,
     "subgroups": 1,
-    "title": "Магистратура ИФиПА Агроэкология"
+    "title": "ИФиПА Агроэкология"
   },
   "subjects": [
     {
       "id": "subj_1",
-      "name": "Методика профес. обучения",
+      "name": "Статистический анализ данных",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "07.02"
+          "from": "01.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "28.02"
+          "from": "07.09",
+          "to": "14.11"
         }
       },
       "nchet": {
-        "wednesday": {
-          "par_1": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Н-301"
-              }
-            ]
-          }
-        },
-        "thursday": {
+        "saturday": {
           "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Н-327"
+                "room": "Д-418"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
               }
             ]
           }
         }
       },
       "chet": {
-        "wednesday": {
-          "par_1": {
+        "saturday": {
+          "par_4": {
             "type": "22",
             "classroom": [
               {
-                "room": "Н-301"
+                "room": "Д-406"
               }
             ]
           },
-          "par_2": {
+          "par_5": {
             "type": "22",
             "classroom": [
               {
-                "room": "Н-301"
+                "room": "Д-406"
               }
             ]
-          }
-        },
-        "thursday": {
-          "par_3": {
-            "type": "Л",
+          },
+          "par_6": {
+            "type": "22",
             "classroom": [
               {
-                "room": "Н-327"
+                "room": "Д-406"
               }
             ]
           }
@@ -82,38 +78,30 @@
       },
       "teachers": [
         {
-          "name": "НАЗАРОВА М.А."
+          "name": "ШАТАЛОВА Е.И."
         }
       ]
     },
     {
       "id": "subj_2",
-      "name": "Интел. соб-ть и основы коммерциализации",
+      "name": "Инновационные технологии в агрохимии",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "14.02"
+          "from": "01.09",
+          "to": "31.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "06.03"
+          "from": "07.09",
+          "to": "28.11"
         }
       },
       "nchet": {
         "friday": {
-          "par_3": {
+          "par_4": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-418"
-              }
-            ]
-          },
-          "par_4": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-418"
+                "room": "Д-118"
               }
             ]
           },
@@ -121,27 +109,19 @@
             "type": "22",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-118"
               }
             ]
           }
         }
       },
       "chet": {
-        "friday": {
-          "par_3": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-418"
-              }
-            ]
-          },
+        "thursday": {
           "par_4": {
             "type": "22",
             "classroom": [
               {
-                "room": "Д-418"
+                "room": "Д-118"
               }
             ]
           }
@@ -149,66 +129,50 @@
       },
       "teachers": [
         {
-          "name": "ЗАВАЛЬНЮК Е.Ю."
+          "name": "МАРМУЛЕВ А.Н."
         }
       ]
     },
     {
       "id": "subj_3",
-      "name": "ДПВ-Санитарная экология",
+      "name": "Стратегический менеджмент на предприятиях АПК",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "21.02"
+          "from": "26.10",
+          "to": "28.11"
         },
         "practice": {
-          "from": "19.01",
-          "to": "11.03"
+          "from": "26.10",
+          "to": "28.11"
         }
       },
       "nchet": {
-        "monday": {
-          "par_1": {
+        "thursday": {
+          "par_3": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-231А"
+                "room": "Д-418"
               }
             ]
           },
-          "par_2": {
+          "par_4": {
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231А"
-              }
-            ]
-          },
-          "par_3": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-231А"
+                "room": "Д-405"
               }
             ]
           }
         }
       },
       "chet": {
-        "monday": {
-          "par_1": {
+        "thursday": {
+          "par_2": {
             "type": "Л",
             "classroom": [
               {
-                "room": "Д-231А"
-              }
-            ]
-          },
-          "par_2": {
-            "type": "22",
-            "classroom": [
-              {
-                "room": "Д-231А"
+                "room": "Д-418"
               }
             ]
           },
@@ -216,7 +180,15 @@
             "type": "22",
             "classroom": [
               {
-                "room": "Д-231А"
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-405"
               }
             ]
           }
@@ -224,25 +196,33 @@
       },
       "teachers": [
         {
-          "name": "ГАВРИЛЕЦ Т.В."
+          "name": "ОЖОГОВА О.В."
         }
       ]
     },
     {
       "id": "subj_4",
-      "name": "ДПВ-ГИС-технологии в сельском хоз-ве",
+      "name": "Методика экспериментальных исследований",
       "period": {
         "lecture": {
-          "from": "12.01",
-          "to": "28.02"
+          "from": "01.09",
+          "to": "24.10"
         },
         "practice": {
-          "from": "19.01",
-          "to": "28.02"
+          "from": "07.09",
+          "to": "24.10"
         }
       },
       "nchet": {
         "thursday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-406"
+              }
+            ]
+          },
           "par_4": {
             "type": "22",
             "classroom": [
@@ -255,16 +235,16 @@
       },
       "chet": {
         "thursday": {
-          "par_4": {
-            "type": "22",
+          "par_2": {
+            "type": "Л",
             "classroom": [
               {
-                "room": "Д-406"
+                "room": "Д-418"
               }
             ]
           },
-          "par_5": {
-            "type": "Л",
+          "par_3": {
+            "type": "22",
             "classroom": [
               {
                 "room": "Д-406"
@@ -275,7 +255,143 @@
       },
       "teachers": [
         {
-          "name": "РИКСЕН В.С."
+          "name": "ГАЛЕЕВ Р.Р."
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Проф. иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22 | 22Н",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22 | 22Н",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              },
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОТКИХ Е.Г.22Э НЕПРАШ О.В. 22Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Экол. противореч. в с/х",
+      "period": {
+        "lecture": {
+          "from": "19.10",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОБОВА Л.Н."
         }
       ]
     }

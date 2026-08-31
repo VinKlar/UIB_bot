@@ -1,0 +1,1116 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент гр.4204,05 - 54 чел. 4 подгр.",
+    "group": "4204,05",
+    "students": 54,
+    "subgroups": 4,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Философия",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4",
+                "date": "04.09"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СЕРГЕЕВ С.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Теория вероятности и математическая статистика",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАРСИС Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Теория бухгалтерского учета",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЕЛУЙКО И.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Налоги и налогообложение",
+      "period": {
+        "lecture": {
+          "from": "05.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЖУКОВСКАЯ Е.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Планирование и управление данными",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "15.09",
+          "to": "13.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_6": {
+            "type": "4А",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_6": {
+            "type": "4Б",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "5Б",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5Б",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_6": {
+            "type": "4А",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "4Б",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "5А",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5А",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л, пр. КАЛЯГИНА Е.И (4А,4Б) пр. ШИШИНА Л.Г (5А,5Б)"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Инностранный язык в проф-ной деят-ти",
+      "period": {
+        "practice": {
+          "from": "28.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_6": {
+            "type": "4Б",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "5А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_6": {
+            "type": "4Б",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "4Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4Н",
+            "classroom": [
+              {
+                "room": "Д-404"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "4А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4А",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5Б",
+            "classroom": [
+              {
+                "room": "ВСТ-210"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "УРМАН С.С (4А) УЛЬЯНОВА О.В (4Б) МАШКОВА С.С (5А) СЕРОВА Н.А (5Б) НЕПРАШ О.В (4Н)"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Основы производства продукции животноводства",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101",
+                "date": "19.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "З-219"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АНОХИН С.М"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Введение в специальность",
+      "period": {
+        "lecture": {
+          "from": "07.12",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "07.12",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВА Н.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "4.5",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "from": "19.10"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4.5",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "until": "17.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "4.5",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "from": "19.10"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4.5",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "until": "17.10"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВА Н.А ГОЛУБЕВ А.В ШМАКОВА Т.П ПОДКОВЫРОВА Т.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Статистика",
+      "period": {
+        "lecture": {
+          "from": "05.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИСАЕВА Г.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_11",
+      "name": "Маркетинг",
+      "period": {
+        "lecture": {
+          "from": "05.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "5",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЖУКОВСКАЯ Е.А"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления ГМУ гр. 4406 - 23 чел. 2 подгр.",
+    "group": "4406",
+    "students": 23,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления ГМУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Управление государственными закупками и контрактами",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428",
+                "date": "03.09"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Этика государственной и муниципальной службы",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407",
+                "date": "01.09"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Религия и государственное управление",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПЕЧИН Ю.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Управление рынком труда и занятостью",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Проектное управление в органах государственной власти",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. АФАНАСЬЕВА Т.А пр. РОМАШЕВА В.Е"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Цифровизация в государственном управлении",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АФАНАСЬЕВА Т.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Государственное управление ВНД",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "17.10"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407",
+                "date": "02.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАКОНЕЧНАЯ О.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВ А.В ПОЛОМОШНОВА О.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Управление государственной собственностью",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407",
+                "date": "04.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЫБАКОВ Ю.И"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,739 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент ЦМ гр. 4404 - 16 чел. 1 подгр.",
+    "group": "4404",
+    "students": 16,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент ЦМ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Интернет-маркетинг",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407",
+                "date": "03.09"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Брендинг",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОБУХОВ А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Маркетинговые стратегии",
+      "period": {
+        "lecture": {
+          "from": "28.09",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Управление конкурентоспособностью",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУЛЯГИНА Е.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Управление продуктом",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРОЛЕВА В.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Поведенческая экономика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОБУХОВ А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Рекламный менеджмент",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЖУКОВСКАЯ Е.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "ДПВ-Сторителлинг",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407",
+                "date": "01.09"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "ДПВ-Управление бизнесом в условиях цифровизации",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "10.10"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВ В.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "from": "02.11"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "until": "31.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "from": "02.11"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "4",
+            "classroom": [
+              {
+                "room": "СПЗ",
+                "until": "31.10"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВ А.В ПОЛОМОШНОВА О.Н"
+        }
+      ]
+    }
+  ]
+}

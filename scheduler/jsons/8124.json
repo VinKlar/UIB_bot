@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "raw": "ИНСТИТУТ ЦИФРОВЫХ ТЕХНОЛОГИЙ Зоотехния. Прикладная биоинформатика гр.8124 - 24 чел. 2 подгр.",
+    "group": "8124",
+    "students": 24,
+    "subgroups": 2,
+    "title": "ИНСТИТУТ ЦИФРОВЫХ ТЕХНОЛОГИЙ Зоотехния. Прикладная биоинформатика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы преподавания профессиональных дисциплин",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Н-109"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "Н-306"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "Н-323"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "НАЗАРОВА М.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Методология научного исследования",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428",
+                "date": "03.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕЧУШКОВА М.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Прикладное программирование на языке R",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "24А",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "24Б",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "24Б",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "24Б",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "24А",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "24А",
+            "classroom": [
+              {
+                "room": "НК-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШКИН М.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Благополучие животных",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-308"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "24",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "СТЕПАНЕНКО Ж.Р"
+        }
+      ]
+    }
+  ]
+}

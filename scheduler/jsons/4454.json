@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент (ЛиУЦП) гр. 4454 - 12 чел. 1 подгр.",
+    "group": "4454",
+    "students": 12,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент (ЛиУЦП)"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Логистика снабжения",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЕЛЯЕВА Е.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Логистика производства",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЕЛЯЕВА Е.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Финансовый менеджмент",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТВИЕНКО С.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Логистика складирования",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БАСКАКОВ С.М"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Анализ отраслевых рынков и конкурентная политика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЮМКИН С.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Управление транспортными системами",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Цифровой маркетинг",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "20.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В"
+        }
+      ]
+    }
+  ]
+}

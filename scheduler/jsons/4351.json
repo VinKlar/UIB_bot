@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Бизнес-информатика гр. 4351 - 7 чел. 1 подгр.",
+    "group": "4351",
+    "students": 7,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Бизнес-информатика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Эконометрика",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "29.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410",
+                "date": "03.10"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГАЙБЕЛЬ Ю.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Учетно-аналитическое обеспечение бизнес процессов",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Основы проектной деятельности",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. АНФИЛОФЬЕВА Т.А пр. РОМАШЕВА В.Е"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Архитектура предприятия",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРЧУГАНОВА М.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Программирование на Python",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "Л │ 51",
+            "classroom": [
+              {
+                "room": "НК-410 │ НК-416",
+                "date": "03.10"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЕЛЬКОВ П.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Вычислительные системы, сети и телекоммуникации",
+      "period": {
+        "lecture": {
+          "from": "29.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527",
+                "date": "03.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_6": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШЕВЕЛЬКОВ П.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Облачные технологии ведения бизнеса",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛЯГИНА Е.И"
+        }
+      ]
+    }
+  ]
+}

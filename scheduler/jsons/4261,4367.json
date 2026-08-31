@@ -1,0 +1,714 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ СПО (Э и У) Экономика и БУ гр. 4261,4367 - 20 чел. 2 подгр.",
+    "group": "4261,4367",
+    "students": 20,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ СПО (Э и У) Экономика и БУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Иностранный язык в проф-ной деятельности",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "67",
+            "classroom": [
+              {
+                "room": "ВСТ-104"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "61",
+            "classroom": [
+              {
+                "room": "Д-233"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРНИКОВА В.А (67) ЧЕРНИКОВА П.Г (61)"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Правовое обеспечение профессиональной деятельности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАРПОВ О.И"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Маркетинг",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-307"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЫНГУЕВА В.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Этика и психология в проф-ной деят-ти",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л │ 61,67",
+            "classroom": [
+              {
+                "room": "Д-415 │ Д-405",
+                "date": "02.09"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "Д-415",
+                "date": "02.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАРПОВ О.И"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Основы внутреннего контроля",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "01.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОМИССАРОВА Н.П"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Анализ финансово-хозяйственной деятельности",
+      "period": {
+        "lecture": {
+          "from": "12.10",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "19.10",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_2": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-222"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕНИСЕНКО Е.Б"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Основы управленческого учета",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-323"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУТИЩЕВА А.К"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Бухг. техн. проведения и формир. инвент-ии",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "З-317"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-116"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДЕНИСЕНКО Е.Б"
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физическая культура",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ПОЛОМОШНОВА О.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_10",
+      "name": "Технология составления бухгал. (финансовой) отчетности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "14.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-527"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-428",
+                "date": "04.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_5": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "61.67",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    }
+  ]
+}

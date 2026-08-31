@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ Менеджмент гр. 4222 - 22 чел. 2 подгр.",
+    "group": "4222",
+    "students": 22,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ ЭКОНОМИКИ И УПРАВЛЕНИЯ Менеджмент"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Оценка и управление стоимостью бизнеса",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-328"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВ В.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Управление продажами",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШАЛИК К.К"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Современные технологии в маркетинге",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_6": {
+            "type": "Л │ 22",
+            "classroom": [
+              {
+                "room": "НК-428 │ НК-424",
+                "date": "05.09"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОБУХОВ А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Управление конкурентоспособностью",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "28.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЮМКИН С.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Экономическая безопасность международного",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЮМКИН С.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Цифровой международный маркетинг",
+      "period": {
+        "lecture": {
+          "from": "19.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В"
+        }
+      ]
+    }
+  ]
+}

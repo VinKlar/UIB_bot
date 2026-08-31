@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Экономика гр. 4121 - 7 чел. 1 подгр.",
+    "group": "4121",
+    "students": 7,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Экономика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Эконометрика (продвинутый уровень)",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_2": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": []
+    },
+    {
+      "id": "subj_2",
+      "name": "Налоги и предпринимательство",
+      "period": {
+        "lecture": {
+          "from": "21.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "26.12"
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЖУКОВСКАЯ Е.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Финансовый анализ (продвинутый уровень)",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-524"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-534"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШИКИНА И.О"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Современные финансовые рынки",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТВИЕНКО С.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Риск-менеджмент",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "21",
+            "classroom": [
+              {
+                "room": "НК-549"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВГОРОДНЯЯ А.В"
+        }
+      ]
+    }
+  ]
+}

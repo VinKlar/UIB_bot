@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Экономика гр. 4451 - 10 чел. 1 подгр.",
+    "group": "4451",
+    "students": 10,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Экономика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "ДПВ-Организация и осуществление внутреннего",
+      "period": {
+        "lecture": {
+          "from": "09.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "16.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Учет затрат и калькулирование продукции в организациях АПК",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "20.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЕЛУЙКО И.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Бухгалтерская финансовая отчетность",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "20.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "ДПВ-Бухгалтерский учет в бюджетных учреждениях",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИГНАТЕНКОВА И.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Налоговый учет и отчетность",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_3": {
+            "type": "51",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    }
+  ]
+}

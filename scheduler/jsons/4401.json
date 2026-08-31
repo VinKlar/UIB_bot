@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Экономика ФРиЦФТ гр. 4401 - 11 чел. 1 подгр.",
+    "group": "4401",
+    "students": 11,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Экономика ФРиЦФТ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Корпоративные финансы",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "13.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415",
+                "date": "28.10"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИШИКИНА И.О"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Основы финансовых технологий бизнеса",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "13.01"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "З-319"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАУРОВА А.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Международные финансы",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "13.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЗАВГОРОДНЯЯ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Финансовые рынки",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "14.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ШИНДЕЛОВА О.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Финансовое право",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "17.10"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИСАЕВА Г.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Профессиональные компьютерные программы",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-423"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КАЛЯГИНА Е.И"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "ДПВ-Рынок ценных бумаг",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "13.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-201"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-201"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МАТВИЕНКО С.Н"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "ДПВ-Банковская система РФ",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИСАЕВА Г.В"
+        }
+      ]
+    }
+  ]
+}

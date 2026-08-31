@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент гр. 4122 - 20 чел. 2 подгр.",
+    "group": "4122",
+    "students": 20,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Методология и организация исследования деятельности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "03.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "17.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КУЗНЕЦОВА И.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Кросс-культурные коммуникации",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "28.11"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЧЕРЕПАНОВ А.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Кадровая политика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "24.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "05.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-538 │"
+              },
+              {
+                "room": "НК-527",
+                "date": "19.10"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-538"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АНТОШКИНА О.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Иннституциальная экономика",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-431 │",
+                "date": "10.11"
+              },
+              {
+                "room": "НК-431",
+                "date": "24.11"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "З-108"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВЫШЕГУРОВ М.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Управление импортозамещением в России",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_5": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЮМКИН С.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Социально-экономиеская статистика",
+      "period": {
+        "lecture": {
+          "from": "26.10",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "02.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_6": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "22",
+            "classroom": [
+              {
+                "room": "НК-410"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ИСАЕВА Г.В"
+        }
+      ]
+    }
+  ]
+}

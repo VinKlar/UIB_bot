@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент гр. 4354 - 11 чел. 1 подгр.",
+    "group": "4354",
+    "students": 11,
+    "subgroups": 1,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления Менеджмент"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Основы проектной деятельности",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "17.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "24.10"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. АФАНАСЬЕВА Т.А пр. РОМАШЕВА В.Е"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Экономика организации",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_5": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_6": {
+            "type": "56",
+            "classroom": [
+              {
+                "room": "НК-428"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЦЫНГУЕВА В.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Бизнес-планирование",
+      "period": {
+        "lecture": {
+          "from": "19.10",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "26.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_4": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВА Н.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Риск-ориентированный менеджмент",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "05.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АНТОШКИНА О.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "ДПВ-Аграрная политика",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л │ 54",
+            "classroom": [
+              {
+                "room": "НК-412 │ НК-412",
+                "date": "19.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "РЫБАКОВ Ю.И"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Маркетинговая стратегия",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "31.10"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "Л │ 54",
+            "classroom": [
+              {
+                "room": "НК-412 │ НК-412",
+                "date": "19.09"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          },
+          "par_7": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-433"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ОЖОГОВА О.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Оценка стоимости бизнеса",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "16.01"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_6": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-415 │"
+              },
+              {
+                "room": "НК-424",
+                "date": "05.11"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_2": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "54",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЩЕРБАКОВ В.А"
+        }
+      ]
+    }
+  ]
+}

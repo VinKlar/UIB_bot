@@ -1,0 +1,586 @@
+{
+  "meta": {
+    "raw": "ИНСТИТУТ ЦИФРОВЫХ ТЕХНОЛОГИЙ Прикладная информатика гр. 8301 - 26 чел. 2 подгр.",
+    "group": "8301",
+    "students": 26,
+    "subgroups": 2,
+    "title": "ИНСТИТУТ ЦИФРОВЫХ ТЕХНОЛОГИЙ Прикладная информатика"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Проектная деятельность",
+      "period": {
+        "practice": {
+          "from": "21.09",
+          "to": "21.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431",
+                "date": "17.09"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ВАКАНСИЯ"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Проектирование информационных систем",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "23.01"
+        }
+      },
+      "nchet": {
+        "friday": {
+          "par_1": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "friday": {
+          "par_1": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-424"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОРЧУГАНОВА М.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Конфигурирование информационных систем",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л │ 1А",
+            "classroom": [
+              {
+                "room": "НК-428НК-416",
+                "date": "16.09"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-416"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "МЕНЩИКОВ К.П"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Интеграция учета и анализа для оптимизации бизнес-процессов",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-302"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ДАВЫДОВА Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Теория систем и системный анализ",
+      "period": {
+        "lecture": {
+          "from": "15.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "21.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "saturday": {
+          "par_1": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л │ 1А",
+            "classroom": [
+              {
+                "room": "НК-432 │ НК-301",
+                "date": "19.09"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "saturday": {
+          "par_1": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1Б",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-432"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "1А",
+            "classroom": [
+              {
+                "room": "НК-301"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АЛЕТДИНОВА А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "ДПВ-Хранилище данных и интеллектуальные ИС",
+      "period": {
+        "lecture": {
+          "from": "16.11",
+          "to": "16.01"
+        },
+        "practice": {
+          "from": "23.11",
+          "to": "23.01"
+        }
+      },
+      "nchet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "monday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "НК-412",
+                "date": "16.11"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_1": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "НК-303"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "БЛЕСКИН Д.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "21.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_5": {
+            "type": "1",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ГОЛУБЕВ А.В ПОЛОМОШНОВА О.Н ШМАКОВА Т.П"
+        }
+      ]
+    }
+  ]
+}

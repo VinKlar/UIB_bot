@@ -1,0 +1,652 @@
+{
+  "meta": {
+    "raw": "ФАКУЛЬТЕТ Экономики и Управления ГМУ гр. 4106 - 27 чел. 2 подгр.",
+    "group": "4106",
+    "students": 27,
+    "subgroups": 2,
+    "title": "ФАКУЛЬТЕТ Экономики и Управления ГМУ"
+  },
+  "subjects": [
+    {
+      "id": "subj_1",
+      "name": "Иностранный язык",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "19.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_5": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Д-405"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-102",
+                "date": "02.09"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_5": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "НК-336"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_5": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "Д-231"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          },
+          "par_6": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "Д-232"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "УЛЬЯНОВА О.В (6А) КАЛИНИНА Т.С (6Б)"
+        }
+      ]
+    },
+    {
+      "id": "subj_2",
+      "name": "Основы российской государственности",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "26.12"
+        },
+        "practice": {
+          "from": "05.10",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414",
+                "until": "07.11"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-328",
+                "from": "09.11"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_1": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-414"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТОЛСТОВА И.Э"
+        }
+      ]
+    },
+    {
+      "id": "subj_3",
+      "name": "Линейная алгебра",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "31.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "14.11"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_1": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-308"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ТАРСИС Е.Ю"
+        }
+      ]
+    },
+    {
+      "id": "subj_4",
+      "name": "Математичекий анализ",
+      "period": {
+        "lecture": {
+          "from": "02.11",
+          "to": "19.12"
+        },
+        "practice": {
+          "from": "09.11",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "thursday": {
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-315│"
+              },
+              {
+                "room": "Н-307",
+                "date": "12.11"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "thursday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-315"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Н-132"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "ЖУРАВСКАЯ С.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_5",
+      "name": "Микроэкономика",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "07.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "07.11"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_1": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "З-101",
+                "date": "01.09"
+              }
+            ]
+          },
+          "par_2": {
+            "type": "Л │ 6",
+            "classroom": [
+              {
+                "room": "З-101 │ НК-431",
+                "date": "01.09"
+              }
+            ]
+          }
+        },
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "Д-418"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-407"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "САМОХВАЛОВА А.А"
+        }
+      ]
+    },
+    {
+      "id": "subj_6",
+      "name": "Основы менеджмента",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "21.11"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        },
+        "saturday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_4": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-431"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. ШАЛИК К.К пр. СВИНАРЕВА Т.В"
+        }
+      ]
+    },
+    {
+      "id": "subj_7",
+      "name": "Офисные приложения и технологии",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "12.12"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "26.12"
+        }
+      },
+      "nchet": {
+        "tuesday": {
+          "par_3": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6А",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        },
+        "friday": {
+          "par_4": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-4"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "tuesday": {
+          "par_3": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          },
+          "par_4": {
+            "type": "6Б",
+            "classroom": [
+              {
+                "room": "НК-419"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "л. ШИШИНА Л.Г пр. КАЗАКОВА И.С"
+        }
+      ]
+    },
+    {
+      "id": "subj_8",
+      "name": "Основы социального управления",
+      "period": {
+        "lecture": {
+          "from": "01.09",
+          "to": "10.10"
+        },
+        "practice": {
+          "from": "07.09",
+          "to": "17.10"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_2": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3",
+                "date": "03.09"
+              }
+            ]
+          },
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          },
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_2": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "НК-412"
+              }
+            ]
+          }
+        },
+        "thursday": {
+          "par_3": {
+            "type": "Л",
+            "classroom": [
+              {
+                "room": "А-3"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "АНТОШКИНА О.Г"
+        }
+      ]
+    },
+    {
+      "id": "subj_9",
+      "name": "Физическая культура и спорт",
+      "period": {
+        "practice": {
+          "from": "07.09",
+          "to": "12.12"
+        }
+      },
+      "nchet": {
+        "wednesday": {
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "chet": {
+        "wednesday": {
+          "par_5": {
+            "type": "6",
+            "classroom": [
+              {
+                "room": "СПЗ"
+              }
+            ]
+          }
+        }
+      },
+      "teachers": [
+        {
+          "name": "КОЛЕСОВ А.А ГОЛУБЕВА Н.А ФОТИНА З.В ПОДКОВЫРОВА Т.А ПОЛОМОШНОВА О.Н ГОЛУБЕВ А.В ШМАКОВА Т.П"
+        }
+      ]
+    }
+  ]
+}

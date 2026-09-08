@@ -4,6 +4,27 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 
+def expand_filename_groups(filename_stem: str) -> list[str]:
+    """Expand abbreviated group numbers used in combined schedule filenames.
+
+    For example, ``8101,02,03`` means ``8101``, ``8102`` and ``8103``.
+    Parts that are already written in full (``4161,4267``) are left intact.
+    """
+    parts = [part.strip() for part in filename_stem.split(",") if part.strip()]
+    if not parts:
+        return []
+
+    first_group = parts[0]
+    groups = [first_group]
+
+    for part in parts[1:]:
+        if len(part) < len(first_group):
+            part = first_group[:len(first_group) - len(part)] + part
+        groups.append(part)
+
+    return groups
+
+
 def load_groups_from_excel(excel_path: str) -> list[str]:
     wb = load_workbook(excel_path, data_only=True)
     sheet_name = next(
@@ -52,7 +73,7 @@ def build_fgs_from_jsons(
         except (OSError, KeyError, json.JSONDecodeError, TypeError):
             continue
 
-        for filename_group in file_path.stem.split(","):
+        for filename_group in expand_filename_groups(file_path.stem):
             schedule_index[normalize_identifier(filename_group)] = schedule_group
 
     fgs = {}

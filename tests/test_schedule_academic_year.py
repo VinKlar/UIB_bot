@@ -1,7 +1,8 @@
 import unittest
+from datetime import date
 from pathlib import Path
 
-from scheduler.schedule import Scheduler
+from scheduler.schedule import DayParser, Scheduler
 from scheduler.scheduler_parser import Period, parse_json
 from bot.handlers import format_lesson
 
@@ -10,6 +11,23 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 class AcademicYearTests(unittest.TestCase):
+    def test_week_containing_september_first_is_odd(self):
+        parser = DayParser(date(2026, 8, 31))
+
+        self.assertEqual(parser.parse(date(2026, 9, 1)), 1)
+        self.assertEqual(parser.parse(date(2026, 9, 6)), 6)
+
+    def test_week_after_first_academic_week_is_even(self):
+        parser = DayParser(date(2026, 8, 31))
+
+        self.assertEqual(parser.parse(date(2026, 9, 7)), 7)
+        self.assertEqual(parser.parse(date(2026, 9, 13)), 13)
+
+    def test_academic_week_parity_continues_alternating(self):
+        parser = DayParser(date(2026, 8, 31))
+
+        self.assertEqual(parser.parse(date(2026, 9, 14)), 0)
+
     def test_period_crossing_new_year_is_valid(self):
         period = Period.model_validate({"from": "19.10", "to": "16.01"})
         self.assertLess(period.start, period.end)

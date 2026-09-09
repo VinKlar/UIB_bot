@@ -33,7 +33,9 @@ class DayParser:
     def parse(self, day: date):
         week_number = (day - self.start).days // 7
         if week_number < self.max_week: 
-            return (week_number + 1) % 2 * 7 + day.weekday()
+            # Неделя, содержащая 1 сентября, является первой нечётной.
+            # Нечётная неделя хранится в индексах 0-6, чётная — 7-13.
+            return week_number % 2 * 7 + day.weekday()
         else:
             return None
 

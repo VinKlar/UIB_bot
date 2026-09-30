@@ -59,24 +59,97 @@ class Subject:
 
 class Lesson:
 
-    def __init__(self, index: int, subject: Subject, cabinet: str, type: str):
+    def __init__(
+        self,
+        index: int,
+        subject: Subject,
+        cabinet: str,
+        type: str,
+        classrooms=None,
+        group: str | None = None,
+        groups=None,
+        subgroup: str | None = None,
+    ):
         self.index = index
         self.subject = subject
         self.cabinet = cabinet
         self.type = type
+        self.classrooms = classrooms or []
+        self.group = group
+        self.groups = groups or []
+        self.subgroup = subgroup
 
     def is_lecture(self):
         return self.type == "Л"
     
-    def check_day(self, day : date):
+    def check_period(self, day: date):
         if self.is_lecture():
             return self.subject.lecture_range.in_range(day)
         return self.subject.practice_range.in_range(day)
+
+    @staticmethod
+    def classroom_matches_day(classroom: scheduler_parser.ClassRoom, day: date):
+        if classroom.on_date is not None:
+            return day == classroom.on_date
+        if classroom.start is not None and day < classroom.start:
+            return False
+        if classroom.end is not None and day > classroom.end:
+            return False
+        return True
+
+    def matches_group(self, group: str | None):
+        if self.group is not None and group != self.group:
+            return False
+        if self.groups and group not in self.groups:
+            return False
+        return True
+
+    def matches_subgroup(self, subgroup: str | None):
+        # Для старых пользователей без сохранённой подгруппы сохраняем прежнее
+        # поведение и показываем все занятия. После выбора фильтр становится строгим.
+        return subgroup is None or self.subgroup is None or subgroup == self.subgroup
+
+    def for_day(self, day: date, group: str | None = None, subgroup: str | None = None):
+        if (
+            not self.check_period(day)
+            or not self.matches_group(group)
+            or not self.matches_subgroup(subgroup)
+        ):
+            return None
+
+        classrooms = [
+            classroom
+            for classroom in self.classrooms
+            if self.classroom_matches_day(classroom, day)
+        ]
+        if not classrooms:
+            return None
+
+        cabinet = ", ".join(room.room for room in classrooms)
+        return Lesson(
+            self.index,
+            self.subject,
+            cabinet or "аудитория не указана",
+            self.type,
+            classrooms,
+            self.group,
+            self.groups,
+            self.subgroup,
+        )
     
     @staticmethod
     def make_from(data: scheduler_parser.Lesson, index: int, subject: Subject):
         cabinet = ", ".join(room.room for room in data.classroom)
-        return Lesson(index, subject, cabinet or "аудитория не указана", data.type)
+        return Lesson(
+            index,
+            subject,
+            cabinet or "аудитория не указана",
+            data.type,
+            data.classroom,
+            data.group,
+            data.groups,
+            data.subgroup,
+        )
 
 class LessonList:
     lessons : list[Lesson]
@@ -84,14 +157,19 @@ class LessonList:
     def __init__(self):
         self.lessons = []
 
-    def get_subjects(self, day: date):
-        filtered = list(filter(lambda lesson : lesson.check_day(day), self.lessons))
+    def get_subjects(self, day: date, group: str | None = None, subgroup: str | None = None):
+        filtered = [
+            lesson_for_day
+            for lesson in self.lessons
+            if (lesson_for_day := lesson.for_day(day, group, subgroup)) is not None
+        ]
         filtered.sort(key = lambda lesson: lesson.index)
         return filtered
 
-    def make_from(self, data: dict[int, scheduler_parser.Lesson], subject: Subject):
-        for index, lesson in data.items():
-            self.lessons.append(Lesson.make_from(lesson, index, subject))
+    def make_from(self, data: dict[int, list[scheduler_parser.Lesson]], subject: Subject):
+        for index, lessons in data.items():
+            for lesson in lessons:
+                self.lessons.append(Lesson.make_from(lesson, index, subject))
 
 
 class GroupSchedule:
@@ -105,7 +183,7 @@ class GroupSchedule:
     def __init__(self):
         self.days = {}
 
-    def parse_week(self, data: dict[int, dict[int, scheduler_parser.Lesson]], even: bool, subject: Subject):
+    def parse_week(self, data: dict[int, dict[int, list[scheduler_parser.Lesson]]], even: bool, subject: Subject):
         for day, lessons in data.items():
             day_index = self.day_parser.make_index(day, even)
             if day_index not in self.days:
@@ -119,13 +197,18 @@ class GroupSchedule:
             self.parse_week(s.chet, True, subject)
             self.parse_week(s.nchet, False, subject)
 
-    def get_day(self, day: date) -> list[Lesson]:
+    def get_day(
+        self,
+        day: date,
+        group: str | None = None,
+        subgroup: str | None = None,
+    ) -> list[Lesson]:
         day_index = self.day_parser.parse(day)
         if day_index is not None:
             subject_list = self.days.get(day_index)
             if subject_list is None:
                 return []
-            return subject_list.get_subjects(day)
+            return subject_list.get_subjects(day, group, subgroup)
         
         return []
 
@@ -140,8 +223,27 @@ class Scheduler:
         new_group.parse(data.subjects)
         self.groups[data.meta.group] = new_group
 
-    def get_day(self, day: date, group: str):
-        return self.groups[group].get_day(day)
+    def get_day(
+        self,
+        day: date,
+        schedule_group: str,
+        selected_group: str | None = None,
+        subgroup: str | None = None,
+    ):
+        return self.groups[schedule_group].get_day(day, selected_group, subgroup)
+
+    def get_subgroups(self, schedule_group: str, selected_group: str) -> list[str]:
+        group_schedule = self.groups.get(schedule_group)
+        if group_schedule is None:
+            return []
+
+        subgroups = {
+            lesson.subgroup
+            for lesson_list in group_schedule.days.values()
+            for lesson in lesson_list.lessons
+            if lesson.subgroup is not None and lesson.matches_group(selected_group)
+        }
+        return sorted(subgroups)
 
 
 # from datetime import datetime, timedelta

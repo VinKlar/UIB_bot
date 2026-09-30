@@ -10,6 +10,15 @@ def academic_year_start(today: date | None = None) -> int:
     return today.year if today.month >= 8 else today.year - 1
 
 
+def parse_academic_date(value: str) -> date:
+    parts = value.split(".")
+    day = int(parts[0])
+    month = int(parts[1])
+    start_year = academic_year_start()
+    year = start_year if month >= 8 else start_year + 1
+    return date(year, month, day)
+
+
 class Meta (BaseModel): 
     group: str
 
@@ -20,12 +29,7 @@ class Period(BaseModel):
     @field_validator("start", "end", mode="before")
     @classmethod
     def convert_date(cls, value: str):
-        parts = value.split(".") 
-        day = int(parts[0])
-        month = int(parts[1])
-        start_year = academic_year_start()
-        year = start_year if month >= 8 else start_year + 1
-        return date(year, month, day)
+        return parse_academic_date(value)
 
 class SubjectPeriods(BaseModel):
     lecture: Optional[Period] = None
@@ -33,9 +37,20 @@ class SubjectPeriods(BaseModel):
 
 class ClassRoom(BaseModel):
     room: str
+    on_date: Optional[date] = Field(default=None, alias="date")
+    start: Optional[date] = Field(default=None, alias="from")
+    end: Optional[date] = Field(default=None, alias="until")
+
+    @field_validator("on_date", "start", "end", mode="before")
+    @classmethod
+    def convert_date(cls, value: str | None):
+        return parse_academic_date(value) if value else None
 
 class Lesson(BaseModel):
     type: str
+    group: Optional[str] = None
+    groups: list[str] = Field(default_factory=list)
+    subgroup: Optional[str] = None
     classroom: list[ClassRoom]
 
 class Teacher(BaseModel):
@@ -45,8 +60,8 @@ class Teacher(BaseModel):
 class Subject(BaseModel):
     name: str
     period: SubjectPeriods
-    nchet: dict[int, dict[int, Lesson]] = Field(default_factory=dict)
-    chet: dict[int, dict[int, Lesson]] = Field(default_factory=dict)
+    nchet: dict[int, dict[int, list[Lesson]]] = Field(default_factory=dict)
+    chet: dict[int, dict[int, list[Lesson]]] = Field(default_factory=dict)
     teachers: list[Teacher]
 
     @field_validator("chet", "nchet", mode="before")
@@ -55,13 +70,15 @@ class Subject(BaseModel):
         if value is None:
             return {}
 
-        days_dict: dict[int, dict[int, Lesson]] = {}
+        days_dict: dict[int, dict[int, list[Lesson]]] = {}
 
         for day, inner in value.items():
-            lesson_dict: dict[int, Lesson] = {}
+            lesson_dict: dict[int, list[Lesson]] = {}
 
             for par, lesson in inner.items():
-                lesson_dict[int(par[4:])] = lesson
+                # Поддерживаем как прежний одиночный объект занятия, так и
+                # несколько занятий, проходящих одновременно на одной паре.
+                lesson_dict[int(par[4:])] = lesson if isinstance(lesson, list) else [lesson]
 
             days_dict[week_days[day]] = lesson_dict
 

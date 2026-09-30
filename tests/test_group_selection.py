@@ -83,6 +83,43 @@ class RegistrationFlowTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.context["USERS"]["1"]["group"], group)
         self.assertGreaterEqual(sender.await_count, 4)
 
+    async def test_user_selects_subgroup_after_group(self):
+        class ScheduleStub:
+            @staticmethod
+            def get_subgroups(schedule_group, selected_group):
+                return ["А", "Б"] if selected_group == "8101" else []
+
+        self.context["FGS"] = {"8101": "8101,02,03"}
+        self.context["sched"] = ScheduleStub()
+
+        with patch("bot.handlers.send_message", new=AsyncMock()):
+            await router.dispatch(message_update("/start"), self.context)
+            await router.dispatch(message_update("8101"), self.context)
+
+            self.assertEqual(self.context["USER_STATE"][1], "WAIT_SUBGROUP")
+            self.assertNotIn("1", self.context["USERS"])
+
+            await router.dispatch(callback_update("subgroup:А"), self.context)
+
+        self.assertEqual(
+            self.context["USERS"]["1"],
+            {"group": "8101", "subgroup": "А"},
+        )
+
+    async def test_settings_menu_contains_change_actions(self):
+        self.context["USERS"]["1"] = {"group": "8101", "subgroup": "А"}
+        sender = AsyncMock()
+
+        with patch("bot.handlers.send_message", new=sender):
+            await router.dispatch(callback_update("settings"), self.context)
+
+        buttons = sender.await_args.kwargs["buttons"]
+        payloads = [button["payload"] for row in buttons for button in row]
+        self.assertEqual(
+            payloads,
+            ["settings_subgroup", "settings_group", "settings_direction"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

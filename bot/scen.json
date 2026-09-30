@@ -27,6 +27,13 @@
                     "text": "Общее",
                     "payload": "all"
                 }
+            ],
+            [
+                {
+                    "type": "callback",
+                    "text": "Меню",
+                    "payload": "settings"
+                }
             ]
         ]
     },
@@ -57,6 +64,13 @@
                     "type": "callback",
                     "text": "Общее",
                     "payload": "all"
+                }
+            ],
+            [
+                {
+                    "type": "callback",
+                    "text": "Меню",
+                    "payload": "settings"
                 }
             ]
         ]

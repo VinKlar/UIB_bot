@@ -34,9 +34,39 @@ async def begin_group_selection(event, context, text=SEARCH_PROMPT):
     await send_message(event.chat_id, "selection", text=text)
 
 
-async def save_group(event, context, group_info):
+def get_available_subgroups(context, group: str) -> list[str]:
+    schedule_group = context.get("FGS", {}).get(group)
+    sched = context.get("sched")
+    if not schedule_group or sched is None:
+        return []
+    return sched.get_subgroups(schedule_group, group)
+
+
+async def show_subgroups(event, context, group_info, subgroups):
+    context["USER_STATE"][event.user_id] = "WAIT_SUBGROUP"
+    context["USER_SELECTION"][event.user_id] = {
+        "group_info": group_info,
+        "subgroups": subgroups,
+    }
+    buttons = make_button_rows(
+        subgroups,
+        lambda subgroup: f"Подгруппа {subgroup}",
+        lambda subgroup: f"subgroup:{subgroup}",
+    )
+    await send_message(
+        event.chat_id,
+        "selection",
+        text=f"Группа {group_info['group']}\n\nВыберите подгруппу:",
+        buttons=buttons,
+    )
+
+
+async def finish_group_selection(event, context, group_info, subgroup=None):
     user_key = str(event.user_id)
-    context["USERS"][user_key] = {"group": group_info["group"]}
+    user = {"group": group_info["group"]}
+    if subgroup is not None:
+        user["subgroup"] = subgroup
+    context["USERS"][user_key] = user
     context["save_users"](context["USERS"])
     context["USER_STATE"].pop(event.user_id, None)
     context["USER_SELECTION"].pop(event.user_id, None)
@@ -50,8 +80,19 @@ async def save_group(event, context, group_info):
             f"{group_info['direction_name']}\n"
             f"Профиль: {group_info['profile']}\n"
             f"Форма обучения: {group_info['study_form']}"
+            + (f"\nПодгруппа: {subgroup}" if subgroup is not None else "")
         ),
     )
+
+
+async def save_group(event, context, group_info):
+    subgroups = get_available_subgroups(context, group_info["group"])
+    if len(subgroups) > 1:
+        await show_subgroups(event, context, group_info, subgroups)
+        return
+
+    subgroup = subgroups[0] if subgroups else None
+    await finish_group_selection(event, context, group_info, subgroup)
 
 
 async def show_directions(event, context, directions):
@@ -118,7 +159,8 @@ async def show_groups(event, context, direction, profile):
 def get_selected_schedule_group(event, context):
     user = context["USERS"].get(str(event.user_id), {})
     selected_group = user.get("group")
-    return selected_group, context["FGS"].get(selected_group)
+    subgroup = user.get("subgroup")
+    return selected_group, context["FGS"].get(selected_group), subgroup
 
 
 async def send_schedule_unavailable(event, selected_group):
@@ -259,6 +301,98 @@ async def wait_group_handler(event, context):
     await save_group(event, context, group_info)
 
 
+@router.state("WAIT_SUBGROUP")
+async def wait_subgroup_handler(event, context):
+    payload = event.payload or ""
+    selection = context["USER_SELECTION"].get(event.user_id, {})
+    allowed_subgroups = selection.get("subgroups", [])
+
+    if event.type != "callback" or not payload.startswith("subgroup:"):
+        await send_message(event.chat_id, "selection", text="Выберите подгруппу кнопкой выше.")
+        return
+
+    subgroup = payload.split(":", 1)[1]
+    group_info = selection.get("group_info")
+    if subgroup not in allowed_subgroups or not group_info:
+        await begin_group_selection(event, context, "Выбор устарел. Выберите группу заново.")
+        return
+
+    await finish_group_selection(event, context, group_info, subgroup)
+
+
+@router.callback("settings")
+async def settings_handler(event, context):
+    user = context["USERS"].get(str(event.user_id), {})
+    group = user.get("group", "не выбрана")
+    subgroup = user.get("subgroup", "не выбрана")
+    buttons = [
+        [
+            {"type": "callback", "text": "Сменить подгруппу", "payload": "settings_subgroup"},
+        ],
+        [
+            {"type": "callback", "text": "Сменить группу", "payload": "settings_group"},
+        ],
+        [
+            {"type": "callback", "text": "Сменить направление", "payload": "settings_direction"},
+        ],
+    ]
+    await send_message(
+        event.chat_id,
+        "selection",
+        text=f"Настройки расписания\n\nГруппа: {group}\nПодгруппа: {subgroup}",
+        buttons=buttons,
+    )
+
+
+@router.callback("settings_subgroup")
+async def settings_subgroup_handler(event, context):
+    user = context["USERS"].get(str(event.user_id), {})
+    group_info = GROUP_CATALOG.find_group(user.get("group", ""))
+    if not group_info:
+        await begin_group_selection(event, context)
+        return
+
+    subgroups = get_available_subgroups(context, group_info["group"])
+    if len(subgroups) < 2:
+        await send_message(
+            event.chat_id,
+            "push_button",
+            text="Для этой группы выбор подгруппы в расписании не предусмотрен.",
+        )
+        return
+
+    await show_subgroups(event, context, group_info, subgroups)
+
+
+@router.callback("settings_group")
+async def settings_group_handler(event, context):
+    user = context["USERS"].get(str(event.user_id), {})
+    group_info = GROUP_CATALOG.find_group(user.get("group", ""))
+    if not group_info:
+        await begin_group_selection(event, context)
+        return
+
+    direction = GROUP_CATALOG.get_direction(group_info["direction_id"])
+    profile = next(
+        (
+            item
+            for item in direction["profiles"]
+            if group_info["group"] in item["groups"]
+        ),
+        None,
+    ) if direction else None
+    if not direction or not profile:
+        await begin_group_selection(event, context)
+        return
+
+    await show_groups(event, context, direction, profile)
+
+
+@router.callback("settings_direction")
+async def settings_direction_handler(event, context):
+    await begin_group_selection(event, context)
+
+
 @router.message("Сегодня")
 async def today_handler(event, context):
     await send_message(
@@ -282,12 +416,14 @@ async def today_callback_handler(event, context):
     lesson_index = 0
 
     lines = []
-    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    selected_group, schedule_group, subgroup = get_selected_schedule_group(event, context)
     if not schedule_group:
         await send_schedule_unavailable(event, selected_group)
         return
 
-    for item in context['sched'].get_day(datetime.now().date(), schedule_group):
+    for item in context['sched'].get_day(
+        datetime.now().date(), schedule_group, selected_group, subgroup
+    ):
         print(item)
         if lesson_index != item.index:
             lesson_index = item.index
@@ -310,7 +446,7 @@ async def today_callback_handler(event, context):
 
 @router.callback("all")
 async def all_callback_handler(event, context):
-    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    selected_group, schedule_group, _ = get_selected_schedule_group(event, context)
     if not schedule_group:
         await send_schedule_unavailable(event, selected_group)
         return
@@ -328,12 +464,17 @@ async def tomorrow_callback_handler(event, context):
     lesson_index = 0
 
     lines = []
-    selected_group, schedule_group = get_selected_schedule_group(event, context)
+    selected_group, schedule_group, subgroup = get_selected_schedule_group(event, context)
     if not schedule_group:
         await send_schedule_unavailable(event, selected_group)
         return
 
-    for item in context['sched'].get_day(datetime.now().date() + timedelta(days=1), schedule_group):
+    for item in context['sched'].get_day(
+        datetime.now().date() + timedelta(days=1),
+        schedule_group,
+        selected_group,
+        subgroup,
+    ):
 
         if lesson_index != item.index:
             lesson_index = item.index
@@ -407,7 +548,7 @@ async def wait_date_handler(event, context):
     lesson_index = 0
     lines = []
 
-    selected_group, group = get_selected_schedule_group(event, context)
+    selected_group, group, subgroup = get_selected_schedule_group(event, context)
     if not group:
         await send_schedule_unavailable(event, selected_group)
         return
@@ -415,7 +556,9 @@ async def wait_date_handler(event, context):
     try:
         result = context["sched"].get_day(
             selected_date,
-            group
+            group,
+            selected_group,
+            subgroup,
         )
 
     except Exception as e:
